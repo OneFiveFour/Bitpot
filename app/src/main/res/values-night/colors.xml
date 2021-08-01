@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_primary">#3F6EB5</color>
+    <color name="color_primary_variant">#31578E</color>
+    <color name="color_on_primary">@android:color/white</color>
+
+    <color name="color_secondary">@color/color_primary</color>
+    <color name="color_secondary_variant">@color/color_primary_variant</color>
+    <color name="color_on_secondary">@android:color/black</color>
+
+    <color name="color_primary_text">#DDDDDD</color>
+    <color name="color_secondary_text">#777777</color>
+
+    <color name="color_background">#171717</color>
+    <color name="color_background_variant">#FFAAAAAA</color>
+    <color name="color_on_background">@android:color/black</color>
+
+    <color name="color_surface">#222222</color>
+    <color name="color_on_surface">@android:color/white</color>
+    <color name="color_on_surface_variant">#efefef</color>
+
+    <color name="background_file_viewer">#060E1A</color>
+
+    <!-- Night mode colors for DiffParser ColorConfig -->
+    <color name="dlv_color_line_added">#0d532f</color>
+    <color name="dlv_color_line_removed">#641400</color>
+    <color name="dlv_color_chunk_header">#333333</color>
+    <color name="dlv_color_line_number">#333333</color>
+    <color name="dlv_color_line_conflict_delimiter">#796404</color>
+    <color name="dlv_color_line_conflict">#7b703d</color>
+
+</resources>

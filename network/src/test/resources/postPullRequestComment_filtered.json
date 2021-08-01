@@ -1,0 +1,30 @@
+{
+  "parent": {
+    "id": 142468514
+  },
+  "pullrequest": {
+    "id": 2
+  },
+  "content": {
+    "raw": "This is a second comment posted via Postman"
+  },
+  "created_on": "2020-05-15T19:11:02.448600+00:00",
+  "user": {
+    "display_name": "Florian Meyer",
+    "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+    "links": {
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+      }
+    }
+  },
+  "inline": {
+    "context_lines": "",
+    "to": 24,
+    "from": 18,
+    "outdated": false,
+    "path": "app/src/main/AndroidManifest.xml"
+  },
+  "updated_on": "2020-05-15T19:11:02.459562+00:00",
+  "id": 150506197
+}

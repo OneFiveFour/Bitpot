@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        binding:source="@{item}"
+        binding:sourceClick="@{clickListener}">
+
+        <TextView
+            android:id="@+id/tv_source_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{item.name}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:layout_constraintBottom_toTopOf="@+id/tv_source_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_source_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="app" />
+
+        <TextView
+            android:id="@+id/tv_source_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_source_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_source_name"
+            app:layout_constraintVertical_chainStyle="packed"
+            binding:humanizedFileSize="@{item.size}"
+            binding:isVisible="@{item.type == SourceType.FILE}"
+            tools:text="123 KB" />
+
+        <ImageView
+            android:id="@+id/iv_source_icon"
+            android:layout_width="32dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:sourceIcon="@{item.type}"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <import type="net.onefivefour.android.bitpot.data.model.SourceType" />
+
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.Source" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+</layout>

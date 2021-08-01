@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together">
+
+    <slide android:slideEdge="top" android:interpolator="@android:interpolator/accelerate_quad">
+        <targets>
+            <target android:targetId="@+id/wv_file_content"/>
+            <target android:targetId="@+id/iv_web_view_drag_indicator"/>
+        </targets>
+    </slide>
+
+    <slide android:slideEdge="bottom" android:interpolator="@android:interpolator/accelerate_quad">
+        <targets>
+            <target android:targetId="@+id/tv_file_name"/>
+            <target android:targetId="@+id/iv_toggle_line_numbers"/>
+            <target android:targetId="@+id/iv_toggle_line_wrap"/>
+            <target android:targetId="@+id/iv_share"/>
+        </targets>
+    </slide>
+
+    <fade />
+</transitionSet>

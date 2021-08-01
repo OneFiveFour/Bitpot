@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_sources"
+        android:icon="@drawable/ic_sources"
+        android:title="@string/source" />
+
+    <item
+        android:id="@+id/fragment_pull_requests"
+        android:icon="@drawable/ic_pull_request"
+        android:title="@string/pull_requests" />
+
+    <item
+        android:id="@+id/fragment_pipelines"
+        android:icon="@drawable/ic_pipelines"
+        android:title="@string/pipelines" />
+    <item
+        android:id="@+id/fragment_downloads"
+        android:icon="@drawable/ic_downloads"
+        android:title="@string/downloads" />
+
+</menu>

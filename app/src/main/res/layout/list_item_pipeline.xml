@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_rect_with_ripple_10dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        binding:pipeline="@{item}"
+        binding:pipelineClick="@{clickListener}">
+
+        <ImageView
+            android:id="@+id/iv_pipeline_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:pipelineState="@{item.state}"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/ic_check_mark" />
+
+        <TextView
+            android:id="@+id/tv_pipeline_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/iv_pipeline_state"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:pipelineTarget="@{item.target}"
+            tools:text="HER-214-Ad-banner-in-live-stream" />
+
+        <TextView
+            android:id="@+id/tv_pipeline_created_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tv_pipeline_build_number"
+            app:layout_constraintStart_toEndOf="@+id/tv_pipeline_build_number"
+            binding:humanizedAgo="@{item.createdOn}"
+            tools:text="12 minutes ago" />
+
+        <TextView
+            android:id="@+id/tv_pipeline_build_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{String.format(@string/hash_tagged_string, item.buildNumber)}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_pipeline_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pipeline_title"
+            tools:text="#666" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.Pipeline" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+</layout>

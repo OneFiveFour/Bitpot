@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+
+    repositories {
+        jcenter()
+        google()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21"
+        classpath"androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
+        classpath 'com.google.gms:google-services:4.3.8'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
+        classpath 'gradle.plugin.ru.cleverpumpkin.proguard-dictionaries-generator:plugin:1.0.8'
+    }
+}
+
+plugins {
+    id("io.gitlab.arturbosch.detekt").version("1.9.1")
+}
+
+allprojects {
+
+    apply from: "$rootDir/detekt.gradle"
+
+    repositories {
+        google()
+        jcenter()
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

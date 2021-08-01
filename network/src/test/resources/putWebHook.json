@@ -1,0 +1,38 @@
+{
+  "read_only": null,
+  "description": "WebHook 2 via Postman",
+  "links": {
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/hooks/%7Bfbaf6d66-129f-4c4a-8b06-aed58e3f3cf7%7D"
+    }
+  },
+  "url": "http://www.google.com",
+  "created_at": "2020-05-15T20:00:56.511510Z",
+  "skip_cert_verification": false,
+  "source": null,
+  "history_enabled": false,
+  "active": true,
+  "subject": {
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+      },
+      "html": {
+        "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+      },
+      "avatar": {
+        "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+      }
+    },
+    "type": "repository",
+    "name": "sm-coding-workshop",
+    "full_name": "florianmeyer_eb/sm-coding-workshop",
+    "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+  },
+  "type": "webhook_subscription",
+  "events": [
+    "repo:commit_status_updated",
+    "repo:commit_status_created"
+  ],
+  "uuid": "{fbaf6d66-129f-4c4a-8b06-aed58e3f3cf7}"
+}

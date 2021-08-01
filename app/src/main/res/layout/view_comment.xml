@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="comment"
+            type="net.onefivefour.android.bitpot.data.model.Comment" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.customviews.pullrequest.CommentView.ClickListener" />
+    </data>
+
+    <merge
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:parentTag="android.view.ViewGroup">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            binding:circleImageUrl="@{comment.author.avatarUrl}"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{comment.author.name}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle1"
+            tools:text="Victoria Secret" />
+
+        <TextView
+            android:id="@+id/tv_updated_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            binding:humanizedAgo="@{comment.updatedOn}"
+            tools:text="2 days ago" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body2"
+            android:text="@{comment.content}"
+            tools:text="This is my comment to this Pull Request. Please fix your shitty code. Thanks." />
+
+        <Button
+            android:id="@+id/btn_reply"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> clickListener.onReplyClicked(comment.id, comment.position)}"
+            android:text="@string/reply"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{() -> clickListener.onDeleteClicked(comment.id)}"
+            android:text="@string/delete"
+            android:textColor="@color/color_error"
+            android:textSize="12sp"
+            binding:isVisible="@{comment.allowDelete}"
+            />
+
+        <View
+            android:id="@+id/v_divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_dd" />
+    </merge>
+</layout>

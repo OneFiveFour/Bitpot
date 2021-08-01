@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/fragment_auth">
+    <fragment
+        android:id="@+id/fragment_auth"
+        android:name="net.onefivefour.android.bitpot.screens.auth.AuthFragment">
+        <action
+            android:id="@+id/action_authFragment_to_mainActivity"
+            app:destination="@id/activity_main"
+            app:popUpTo="@+id/activity_main"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_fragment_auth_to_fragment_markdown_logged_out"
+            app:destination="@id/fragment_markdown_logged_out" 
+            />
+    </fragment>
+    <activity
+        android:id="@+id/activity_main"
+        android:name="net.onefivefour.android.bitpot.screens.main.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/fragment_markdown_logged_out"
+        android:name="net.onefivefour.android.bitpot.screens.markdown.MarkdownFragment"
+        android:label="{title}">
+        <argument
+            android:name="fileName"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+</navigation>

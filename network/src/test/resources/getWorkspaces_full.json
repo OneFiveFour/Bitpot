@@ -1,0 +1,109 @@
+{
+    "pagelen": 10,
+    "values": [
+        {
+            "uuid": "{c72aff57-18ac-4ff0-8a1f-bf7308eea358}",
+            "links": {
+                "owners": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/company/members?q=permission%3D%22owner%22"
+                },
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/company"
+                },
+                "repositories": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/company"
+                },
+                "snippets": {
+                    "href": "https://api.bitbucket.org/2.0/snippets/company"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/company/"
+                },
+                "avatar": {
+                    "href": "https://bitbucket.org/workspaces/company/avatar/?ts=1543615163"
+                },
+                "members": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/company/members"
+                },
+                "projects": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/company/projects"
+                }
+            },
+            "created_on": "2018-11-30T21:59:23.188713+00:00",
+            "type": "workspace",
+            "slug": "company",
+            "is_private": true,
+            "name": "company"
+        },
+        {
+            "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}",
+            "links": {
+                "owners": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/companymobile/members?q=permission%3D%22owner%22"
+                },
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/companymobile"
+                },
+                "repositories": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/companymobile"
+                },
+                "snippets": {
+                    "href": "https://api.bitbucket.org/2.0/snippets/companymobile"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/companymobile/"
+                },
+                "avatar": {
+                    "href": "https://bitbucket.org/workspaces/companymobile/avatar/?ts=1543689279"
+                },
+                "members": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/companymobile/members"
+                },
+                "projects": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/companymobile/projects"
+                }
+            },
+            "created_on": "2018-12-01T18:34:39.076660+00:00",
+            "type": "workspace",
+            "slug": "companymobile",
+            "is_private": true,
+            "name": "company Mobile "
+        },
+        {
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+                "owners": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/florianmeyer_eb/members?q=permission%3D%22owner%22"
+                },
+                "self": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/florianmeyer_eb"
+                },
+                "repositories": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb"
+                },
+                "snippets": {
+                    "href": "https://api.bitbucket.org/2.0/snippets/florianmeyer_eb"
+                },
+                "html": {
+                    "href": "https://bitbucket.org/florianmeyer_eb/"
+                },
+                "avatar": {
+                    "href": "https://bitbucket.org/workspaces/florianmeyer_eb/avatar/?ts=1543752804"
+                },
+                "members": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/florianmeyer_eb/members"
+                },
+                "projects": {
+                    "href": "https://api.bitbucket.org/2.0/workspaces/florianmeyer_eb/projects"
+                }
+            },
+            "created_on": "2018-12-02T12:13:24.589839+00:00",
+            "type": "workspace",
+            "slug": "florianmeyer_eb",
+            "is_private": true,
+            "name": "Florian Meyer"
+        }
+    ],
+    "page": 1,
+    "size": 3
+}

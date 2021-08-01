@@ -1,0 +1,121 @@
+{
+  "scm": "git",
+  "website": null,
+  "has_wiki": false,
+  "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}",
+  "links": {
+    "watchers": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/watchers"
+    },
+    "branches": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/refs/branches"
+    },
+    "tags": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/refs/tags"
+    },
+    "commits": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commits"
+    },
+    "clone": [
+      {
+        "href": "https://florianmeyer_eb@bitbucket.org/companymobile/android_bvb_new.git",
+        "name": "https"
+      },
+      {
+        "href": "git@bitbucket.org:companymobile/android_bvb_new.git",
+        "name": "ssh"
+      }
+    ],
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+    },
+    "source": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/src"
+    },
+    "html": {
+      "href": "https://bitbucket.org/companymobile/android_bvb_new"
+    },
+    "avatar": {
+      "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+    },
+    "hooks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/hooks"
+    },
+    "forks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/forks"
+    },
+    "downloads": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads"
+    },
+    "pullrequests": {
+      "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests"
+    }
+  },
+  "fork_policy": "no_public_forks",
+  "full_name": "companymobile/android_bvb_new",
+  "name": "android_bvb_new",
+  "project": {
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/companymobile/projects/BVB"
+      },
+      "html": {
+        "href": "https://bitbucket.org/companymobile/workspace/projects/BVB"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/user/companymobile/projects/BVB/avatar/32?ts=1479214887"
+      }
+    },
+    "type": "project",
+    "name": "BVB",
+    "key": "BVB",
+    "uuid": "{71f2ee65-e880-4d17-8eba-fc052c656167}"
+  },
+  "language": "android",
+  "created_on": "2018-10-12T10:23:31.806732+00:00",
+  "mainbranch": {
+    "type": "branch",
+    "name": "develop"
+  },
+  "workspace": {
+    "slug": "companymobile",
+    "type": "workspace",
+    "name": "company Mobile ",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/companymobile"
+      },
+      "html": {
+        "href": "https://bitbucket.org/companymobile/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/workspaces/companymobile/avatar/?ts=1543689279"
+      }
+    },
+    "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+  },
+  "has_issues": false,
+  "owner": {
+    "username": "companymobile",
+    "display_name": "company Mobile ",
+    "type": "team",
+    "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/teams/%7Bab590bec-b32d-4e0d-a06c-3e1c053215df%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bab590bec-b32d-4e0d-a06c-3e1c053215df%7D/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/companymobile/avatar/"
+      }
+    }
+  },
+  "updated_on": "2020-05-15T17:54:57.866072+00:00",
+  "size": 16235059,
+  "type": "repository",
+  "slug": "android_bvb_new",
+  "is_private": true,
+  "description": "New BVB Android project"
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_rect_with_ripple_10dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        binding:clickListener="@{clickListener}"
+        binding:clickListenerItem="@{item}">
+
+        <ImageView
+            android:id="@+id/iv_repo_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/private_repository"
+            android:src="@drawable/ic_lock"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:isVisible="@{item.isPrivate}" />
+
+        <ImageView
+            android:id="@+id/iv_repo_pipeline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_repo_private"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:pipelineState="@{item.lastPipelineState}"
+            tools:ignore="ContentDescription"
+            tools:srcCompat="@drawable/ic_check_mark" />
+
+        <ImageView
+            android:id="@+id/iv_repo_avatar"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:repositoryAvatar="@{item.avatar}"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/repo_avatar_default" />
+
+        <TextView
+            android:id="@+id/tv_repo_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{item.name}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/iv_repo_pipeline"
+            app:layout_constraintStart_toEndOf="@+id/iv_repo_avatar"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="bestEvents" />
+
+        <TextView
+            android:id="@+id/tv_repo_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_repo_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_repo_name"
+            binding:humanizedAgo="@{item.lastUpdated}"
+            tools:text="12 minutes ago" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.Repository" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+</layout>

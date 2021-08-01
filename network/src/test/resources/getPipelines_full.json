@@ -1,0 +1,877 @@
+{
+  "page": 1,
+  "pagelen": 10,
+  "values": [
+    {
+      "type": "pipeline",
+      "uuid": "{1f8123fc-3c3e-4adb-aa40-7f316e0e0802}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1313,
+      "creator": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "type": "user",
+        "nickname": "laurenz.baumgart",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "created_on": "2020-05-15T14:55:39.71Z",
+      "completed_on": "2020-05-15T14:59:07.467Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-364-remove-recent-events-for-english-apps",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "84922e90f1df240f8ab572fcfa336bddf6fbdec0",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/84922e90f1df240f8ab572fcfa336bddf6fbdec0"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/84922e90f1df240f8ab572fcfa336bddf6fbdec0"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 188,
+      "build_seconds_used": 187,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{1f8123fc-3c3e-4adb-aa40-7f316e0e0802}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{1f8123fc-3c3e-4adb-aa40-7f316e0e0802}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{9a15510c-d103-4b05-99b9-3033ffd61c14}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1312,
+      "creator": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "type": "user",
+        "nickname": "laurenz.baumgart",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "created_on": "2020-05-15T14:38:24.884Z",
+      "completed_on": "2020-05-15T14:41:38.07Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "remove-recent-events-for-english-apps",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "84922e90f1df240f8ab572fcfa336bddf6fbdec0",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/84922e90f1df240f8ab572fcfa336bddf6fbdec0"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/84922e90f1df240f8ab572fcfa336bddf6fbdec0"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 178,
+      "build_seconds_used": 177,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{9a15510c-d103-4b05-99b9-3033ffd61c14}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{9a15510c-d103-4b05-99b9-3033ffd61c14}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{9359cd76-7102-498b-b71f-8131feed1a21}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1311,
+      "creator": {
+        "display_name": "Bilal Ahmed",
+        "uuid": "{392ea192-4e4b-446c-89e8-8b9e8288ed31}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B392ea192-4e4b-446c-89e8-8b9e8288ed31%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B392ea192-4e4b-446c-89e8-8b9e8288ed31%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5d19a4c7dea8360d16bcf63a/88e898f3-09cd-4e91-92b6-8cfcaad60836/128"
+          }
+        },
+        "type": "user",
+        "nickname": "Bilal Ahmed",
+        "account_id": "5d19a4c7dea8360d16bcf63a"
+      },
+      "created_on": "2020-05-15T12:21:52.461Z",
+      "completed_on": "2020-05-15T12:24:58.606Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-165-android-ad-integration-live-con",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "dd9e21d14b3f3c9dc065a6b4929b15043ae7f759",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/dd9e21d14b3f3c9dc065a6b4929b15043ae7f759"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/dd9e21d14b3f3c9dc065a6b4929b15043ae7f759"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 169,
+      "build_seconds_used": 168,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{9359cd76-7102-498b-b71f-8131feed1a21}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{9359cd76-7102-498b-b71f-8131feed1a21}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{733ba71b-620f-4fda-b708-dbf42ff3da47}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1310,
+      "creator": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "type": "user",
+        "nickname": "laurenz.baumgart",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "created_on": "2020-05-15T11:14:25.947Z",
+      "completed_on": "2020-05-15T11:18:06.407Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "remove-recent-events-for-english-apps",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "5ba6bac65da6280b7f672402f0af6cb59668cbf6",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/5ba6bac65da6280b7f672402f0af6cb59668cbf6"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/5ba6bac65da6280b7f672402f0af6cb59668cbf6"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 201,
+      "build_seconds_used": 201,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{733ba71b-620f-4fda-b708-dbf42ff3da47}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{733ba71b-620f-4fda-b708-dbf42ff3da47}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{fc35c0d3-2b38-4b48-898c-e05aa5c54f14}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1309,
+      "creator": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "type": "user",
+        "nickname": "laurenz.baumgart",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "created_on": "2020-05-15T11:13:21.848Z",
+      "completed_on": "2020-05-15T11:16:37.984Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "remove-recent-events-for-english-apps",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "4d981c05d16107f4ae8beed48be17ed0e109ad2e",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/4d981c05d16107f4ae8beed48be17ed0e109ad2e"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/4d981c05d16107f4ae8beed48be17ed0e109ad2e"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 183,
+      "build_seconds_used": 182,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{fc35c0d3-2b38-4b48-898c-e05aa5c54f14}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{fc35c0d3-2b38-4b48-898c-e05aa5c54f14}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{17e2b675-5dd7-4d9c-b230-82e235a58f8f}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "FAILED",
+          "type": "pipeline_state_completed_failed"
+        }
+      },
+      "build_number": 1308,
+      "creator": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "type": "user",
+        "nickname": "laurenz.baumgart",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "created_on": "2020-05-15T11:11:41.585Z",
+      "completed_on": "2020-05-15T11:13:12.47Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "remove-recent-events-for-english-apps",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "10f7c90705d360d4674ccdd78bfe420f6bf8706f",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/10f7c90705d360d4674ccdd78bfe420f6bf8706f"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/10f7c90705d360d4674ccdd78bfe420f6bf8706f"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 80,
+      "build_seconds_used": 79,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{17e2b675-5dd7-4d9c-b230-82e235a58f8f}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{17e2b675-5dd7-4d9c-b230-82e235a58f8f}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{c1a6583e-d10d-49c7-8ca4-8ae2519a808a}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1307,
+      "creator": {
+        "display_name": "Muhammad Ansab Shohab",
+        "uuid": "{019a9495-a32f-4ce1-a894-6c0935501c74}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B019a9495-a32f-4ce1-a894-6c0935501c74%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B019a9495-a32f-4ce1-a894-6c0935501c74%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dd16eeca20e0c0e9ef6a22c/10356ce8-6da7-426b-8ad0-e98cf1a95548/128"
+          }
+        },
+        "type": "user",
+        "nickname": "muhammad.shohab",
+        "account_id": "5dd16eeca20e0c0e9ef6a22c"
+      },
+      "created_on": "2020-05-15T11:04:09.759Z",
+      "completed_on": "2020-05-15T11:07:32.241Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-333-android-url-in-the-app",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "32b32fa3d8af0713cb650d7f81aebcac10d8d6ea",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af0713cb650d7f81aebcac10d8d6ea"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af0713cb650d7f81aebcac10d8d6ea"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 188,
+      "build_seconds_used": 187,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{c1a6583e-d10d-49c7-8ca4-8ae2519a808a}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{c1a6583e-d10d-49c7-8ca4-8ae2519a808a}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{2239d1e9-bf5b-49f3-a410-96b1b5501974}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "FAILED",
+          "type": "pipeline_state_completed_failed"
+        }
+      },
+      "build_number": 1306,
+      "creator": {
+        "display_name": "Sangeeta Joseph",
+        "uuid": "{7638c045-534d-437a-b5b3-92a177f1ecc6}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B7638c045-534d-437a-b5b3-92a177f1ecc6%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B7638c045-534d-437a-b5b3-92a177f1ecc6%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5ae33a34e6f95a2c1c88c844/b1b370e2-c8b0-4a50-83f9-8846387f62b4/128"
+          }
+        },
+        "type": "user",
+        "nickname": "Sangeeta Joseph",
+        "account_id": "5ae33a34e6f95a2c1c88c844"
+      },
+      "created_on": "2020-05-15T10:38:05.07Z",
+      "completed_on": "2020-05-15T10:39:12.281Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-231-matchday-polls",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "74582333f7cf4fa1ce0e51c657543d1256f14e53",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/74582333f7cf4fa1ce0e51c657543d1256f14e53"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/74582333f7cf4fa1ce0e51c657543d1256f14e53"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 61,
+      "build_seconds_used": 60,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{2239d1e9-bf5b-49f3-a410-96b1b5501974}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{2239d1e9-bf5b-49f3-a410-96b1b5501974}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{5b4963a0-4ed4-47cb-a104-e7692bd6b9d6}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1305,
+      "creator": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "type": "user",
+        "nickname": "Mehmed Mert",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "created_on": "2020-05-15T03:55:52.523Z",
+      "completed_on": "2020-05-15T03:59:00.335Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-267_Splashscreen_Heart_With_Distance",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "2ffe827ce66274059d705d6d7639f9702474e2cf",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/2ffe827ce66274059d705d6d7639f9702474e2cf"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/2ffe827ce66274059d705d6d7639f9702474e2cf"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 174,
+      "build_seconds_used": 172,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{5b4963a0-4ed4-47cb-a104-e7692bd6b9d6}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{5b4963a0-4ed4-47cb-a104-e7692bd6b9d6}/steps"
+        }
+      },
+      "has_variables": false
+    },
+    {
+      "type": "pipeline",
+      "uuid": "{40b20e4c-f361-45f0-a445-da9e90f715f3}",
+      "repository": {
+        "name": "android_bvb_new",
+        "type": "repository",
+        "full_name": "companymobile/android_bvb_new",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new"
+          },
+          "avatar": {
+            "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+          }
+        },
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 1304,
+      "creator": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "type": "user",
+        "nickname": "Mehmed Mert",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "created_on": "2020-05-15T00:38:21.44Z",
+      "completed_on": "2020-05-15T00:41:50.011Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_type": "branch",
+        "ref_name": "BVB2-331_Pull_To_Refresh",
+        "selector": {
+          "type": "default"
+        },
+        "commit": {
+          "type": "commit",
+          "hash": "fb88ae987747cba8eac24d0fe3705f8d492548b7",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/fb88ae987747cba8eac24d0fe3705f8d492548b7"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/fb88ae987747cba8eac24d0fe3705f8d492548b7"
+            }
+          }
+        }
+      },
+      "trigger": {
+        "name": "PUSH",
+        "type": "pipeline_trigger_push"
+      },
+      "run_number": 1,
+      "duration_in_seconds": 194,
+      "build_seconds_used": 192,
+      "expired": false,
+      "links": {
+        "self": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{40b20e4c-f361-45f0-a445-da9e90f715f3}"
+        },
+        "steps": {
+          "href": "https://bitbucket-pipelines.prod.public.atl-paas.net//rest/1.0/accounts/{ab590bec-b32d-4e0d-a06c-3e1c053215df}/repositories/{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}/pipelines/{40b20e4c-f361-45f0-a445-da9e90f715f3}/steps"
+        }
+      },
+      "has_variables": false
+    }
+  ],
+  "size": 1313
+}

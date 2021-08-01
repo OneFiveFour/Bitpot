@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_list_item_margin_vertical">6dp</dimen>
+    <dimen name="default_list_item_margin_horizontal">12dp</dimen>
+
+    <!--Emphasis modifiers for "on" colors-->
+    <dimen name="bottom_nav_corner_radius">15dp</dimen>
+    <dimen name="status_bar_height_plus_16">40dp</dimen>
+    <dimen name="number_text_size">14sp</dimen>
+    <dimen name="dlv_text_size">12sp</dimen>
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+</resources>

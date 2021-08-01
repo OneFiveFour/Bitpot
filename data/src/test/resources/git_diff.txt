@@ -1,0 +1,182 @@
+diff --git a/app/proguard-rules.pro b/app/proguard-rules.pro
+index 910601c..73a4e8c 100644
+--- a/app/proguard-rules.pro
++++ b/app/proguard-rules.pro
+@@ -1,3 +1,4 @@
++<<<<<<< destination:aaef8a692f03505b2549cb2f828bb0844290230c
+ # Add project specific ProGuard rules here.
+ # You can control the set of applied configuration files using the
+ # proguardFiles setting in build.gradle.
+@@ -8,3 +9,15 @@
+ # If you keep the line number information, uncomment this to
+ # hide the original source file name.
+ #-renamesourcefileattribute SourceFile
++=======
++# If your project uses WebView with JS, uncomment the following
++# and specify the fully qualified class name to the JavaScript interface
++# class:
++#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
++#   public *;
++#}
++
++# Uncomment this to preserve the line number information for
++# debugging stack traces.
++#-keepattributes SourceFile,LineNumberTable
++>>>>>>> source:c806a5a56aa9e8cd6208fbf3865debac14043fc0
+diff --git a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml
+index d368f48..ee53899 100644
+--- a/app/src/main/AndroidManifest.xml
++++ b/app/src/main/AndroidManifest.xml
+@@ -12,9 +12,15 @@
+         <activity android:name=".MainActivity">
+             <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+-
++                <!-- adding a comment to fuck up
++                 more lines in hope of creating a really nice merge conflict -->
++                <category android:name="android.intent.category.DEFAULT"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
++<<<<<<< destination:aaef8a692f03505b2549cb2f828bb0844290230c
+                 <category android:name="android.intent.category.DEFAULT"/>
++=======
++                <!-- SAME here -->
++>>>>>>> source:c806a5a56aa9e8cd6208fbf3865debac14043fc0
+             </intent-filter>
+         </activity>
+     </application>
+diff --git a/app/src/main/java/de/company/android/catify/MainActivityCopy.kt b/app/src/main/java/de/company/android/catify/MainActivityCopy.kt
+new file mode 100644
+index 0000000..e645851
+--- /dev/null
++++ b/app/src/main/java/de/company/android/catify/MainActivityCopy.kt
+@@ -0,0 +1,12 @@
++package de.company.android.catify
++
++import androidx.appcompat.app.AppCompatActivity
++import android.os.Bundle
++
++class MainActivity : AppCompatActivity() {
++
++    override fun onCreate(savedInstanceState: Bundle?) {
++        super.onCreate(savedInstanceState)
++        setContentView(R.layout.activity_main)
++    }
++}
+diff --git a/app/src/main/java/de/company/android/catify/emptyFile.txt b/app/src/main/java/de/company/android/catify/emptyFile.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/app/src/main/new-file-added.txt b/app/src/main/new-file-added.txt
+new file mode 100644
+index 0000000..6ffe0d1
+--- /dev/null
++++ b/app/src/main/new-file-added.txt
+@@ -0,0 +1,4 @@
++This is the content
++of the newly added file.
++
++There should only be plus signs in the diff file
+\ No newline at end of file
+diff --git a/app/src/main/res/drawable/ic_launcher_background.json b/app/src/main/res/drawable/ic_launcher_background.json
+new file mode 100644
+index 0000000..a0ad202
+--- /dev/null
++++ b/app/src/main/res/drawable/ic_launcher_background.json
+@@ -0,0 +1,74 @@
++<?xml version="1.0" encoding="utf-8"?>
++<vector
++        xmlns:android="http://schemas.android.com/apk/res/android"
++        android:height="108dp"
++        android:width="108dp"
++        android:viewportHeight="108"
++        android:viewportWidth="108">
++    <path android:fillColor="#008577"
++          android:pathData="M0,0h108v108h-108z"/>
++    <path android:fillColor="#00000000" android:pathData="M9,0L9,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M19,0L19,108"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M59,19L59,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M69,19L69,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++    <path android:fillColor="#00000000" android:pathData="M79,19L79,89"
++          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
++</vector>
+diff --git a/app/src/main/res/drawable/ic_launcher_background.xml b/app/src/main/res/drawable/ic_launcher_background.xml
+deleted file mode 100644
+index a0ad202..0000000
+--- a/app/src/main/res/drawable/ic_launcher_background.xml
++++ /dev/null
+@@ -1,74 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<vector
+-        xmlns:android="http://schemas.android.com/apk/res/android"
+-        android:height="108dp"
+-        android:width="108dp"
+-        android:viewportHeight="108"
+-        android:viewportWidth="108">
+-    <path android:fillColor="#008577"
+-          android:pathData="M0,0h108v108h-108z"/>
+-    <path android:fillColor="#00000000" android:pathData="M9,0L9,108"
+-          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
+-    <path android:fillColor="#00000000" android:pathData="M19,0L19,108"
+-          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
+-    <path android:fillColor="#00000000" android:pathData="M79,19L79,89"
+-          android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>
+-</vector>
+diff --git a/app/src/main/res/values/colors.xml b/app/src/main/res/values/colors.xml
+deleted file mode 100644
+index 69b2233..0000000
+--- a/app/src/main/res/values/colors.xml
++++ /dev/null
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<resources>
+-    <color name="colorPrimary">#008577</color>
+-    <color name="colorPrimaryDark">#00574B</color>
+-    <color name="colorAccent">#D81B60</color>
+-</resources>
+diff --git a/app/src/main/res/values/colorsrenamed.xml b/app/src/main/res/values/colorsrenamed.xml
+new file mode 100644
+index 0000000..69b2233
+--- /dev/null
++++ b/app/src/main/res/values/colorsrenamed.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<resources>
++    <color name="colorPrimary">#008577</color>
++    <color name="colorPrimaryDark">#00574B</color>
++    <color name="colorAccent">#D81B60</color>
++</resources>
+diff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml
+index a7f1bb3..ca6e888 100644
+--- a/app/src/main/res/values/strings.xml
++++ b/app/src/main/res/values/strings.xml
+@@ -1,3 +1,4 @@
+ <resources>
+     <string name="app_name">Catify</string>
++    <string name="modified_string">This content was modified in this file</string>
+ </resources>
+diff --git a/app/src/test/java/de/company/android/catify/ExampleUnitTest.kt b/app/src/test/java/de/company/android/catify/ExampleUnitTest.kt
+deleted file mode 100644
+index 3ab3f09..0000000
+--- a/app/src/test/java/de/company/android/catify/ExampleUnitTest.kt
++++ /dev/null
+@@ -1,17 +0,0 @@
+-package de.company.android.catify
+-
+-import org.junit.Test
+-
+-import org.junit.Assert.*
+-
+-/**
+- * Example local unit test, which will execute on the development machine (host).
+- *
+- * See [testing documentation](http://d.android.com/tools/testing).
+- */
+-class ExampleUnitTest {
+-    @Test
+-    fun addition_isCorrect() {
+-        assertEquals(4, 2 + 2)
+-    }
+-}

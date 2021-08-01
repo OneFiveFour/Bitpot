@@ -1,0 +1,24 @@
+{
+  "role": "PARTICIPANT",
+  "participated_on": "2020-05-15T19:26:34.187441+00:00",
+  "type": "participant",
+  "approved": true,
+  "user": {
+    "display_name": "Florian Meyer",
+    "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+      },
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+      }
+    },
+    "nickname": "Florian Meyer",
+    "type": "user",
+    "account_id": "5b83c633f21b0b2a6cab6675"
+  }
+}

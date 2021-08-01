@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "uuid": "{c72aff57-18ac-4ff0-8a1f-bf7308eea358}",
+      "links": {
+        "avatar": {
+          "href": "https://bitbucket.org/workspaces/company/avatar/?ts=1543615163"
+        }
+      },
+      "name": "company"
+    },
+    {
+      "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}",
+      "links": {
+        "avatar": {
+          "href": "https://bitbucket.org/workspaces/companymobile/avatar/?ts=1543689279"
+        }
+      },
+      "name": "company Mobile "
+    },
+    {
+      "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+      "links": {
+        "avatar": {
+          "href": "https://bitbucket.org/workspaces/florianmeyer_eb/avatar/?ts=1543752804"
+        }
+      },
+      "name": "Florian Meyer"
+    }
+  ],
+  "page": 1
+}

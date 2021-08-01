@@ -1,0 +1,684 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149866127"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149866127"
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "Out of interest, why switching to a HashSet? To avoid the duplicates?",
+        "markup": "markdown",
+        "html": "<p>Out of interest, why switching to a HashSet? To avoid the duplicates?</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-13T11:54:46.783765+00:00",
+      "user": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "inline": {
+        "to": 23,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-13T11:54:46.786344+00:00",
+      "type": "pullrequest_comment",
+      "id": 149866127
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149866502"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149866502"
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "That’s a lot of sorting. Could you elaborate? Doesn't the publishedAt sorting get “destroyed” when we sort by id afterwards?",
+        "markup": "markdown",
+        "html": "<p>That’s a lot of sorting. Could you elaborate? Doesn't the publishedAt sorting get “destroyed” when we sort by id afterwards?</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-13T11:56:15.328802+00:00",
+      "user": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "inline": {
+        "to": 136,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-13T11:56:15.331674+00:00",
+      "type": "pullrequest_comment",
+      "id": 149866502
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149868143"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:34b85c01acbe..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2FMainActivity.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149868143"
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "hmmm, not sure this is working all the time.  \n  \nAs soon as `LiveData.observe()` is called, you get the current LiveData value reported. This value is initially always null. So in case the Matchday API request is not finished, `observeOnce` would get the initial null value and then stop observing.  \n  \nI would use the normal `.observe()` and then remove the observer after the null check.  \n  \nDid you implement this just to clean out the observer or did you experience a bug here?",
+        "markup": "markdown",
+        "html": "<p>hmmm, not sure this is working all the time.  </p>\n<p>As soon as <code>LiveData.observe()</code> is called, you get the current LiveData value reported. This value is initially always null. So in case the Matchday API request is not finished, <code>observeOnce</code> would get the initial null value and then stop observing.  </p>\n<p>I would use the normal <code>.observe()</code> and then remove the observer after the null check.  </p>\n<p>Did you implement this just to clean out the observer or did you experience a bug here?</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-13T12:01:48.790569+00:00",
+      "user": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "inline": {
+        "to": 74,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/MainActivity.kt"
+      },
+      "updated_on": "2020-05-13T12:01:48.793231+00:00",
+      "type": "pullrequest_comment",
+      "id": 149868143
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149932619"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149932619"
+        }
+      },
+      "parent": {
+        "id": 149866502,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149866502"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149866502"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "I would also say, that sorting for one attribute is sufficient or what do you want to achieve ?",
+        "markup": "markdown",
+        "html": "<p>I would also say, that sorting for one attribute is sufficient or what do you want to achieve ?</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-13T15:31:44.775604+00:00",
+      "user": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "nickname": "laurenz.baumgart",
+        "type": "user",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "inline": {
+        "to": 136,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-13T15:31:44.782719+00:00",
+      "type": "pullrequest_comment",
+      "id": 149932619
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150030488"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:34b85c01acbe..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2FMainActivity.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150030488"
+        }
+      },
+      "parent": {
+        "id": 149868143,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149868143"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149868143"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "This was actually a bug fix, because reloading all the data of `MatchDayRepository` caused `matchDayMatch` also publishing change and being `RecentMatchEventsFragment` shown due to the observation here. So I tried to fix it that way, because observing `matchDayMatch` continuously isn’t necessary, at least for the time where the app is in foreground. And I've also tested it several times and it worked. But sure, I’m open for better solutions, or improving this solution, if you have any idea :slight_smile: ",
+        "markup": "markdown",
+        "html": "<p>This was actually a bug fix, because reloading all the data of <code>MatchDayRepository</code> caused <code>matchDayMatch</code> also publishing change and being <code>RecentMatchEventsFragment</code> shown due to the observation here. So I tried to fix it that way, because observing <code>matchDayMatch</code> continuously isn’t necessary, at least for the time where the app is in foreground. And I've also tested it several times and it worked. But sure, I’m open for better solutions, or improving this solution, if you have any idea <img class=\"emoji\" src=\"https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/551c9814-1d37-4573-819d-afab3afeaf32/48x48/1f642.png\" alt=\"🙂\" title=\":slight_smile:\" data-emoji-short-name=\":slight_smile:\" /> </p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-14T02:46:52.350430+00:00",
+      "user": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "inline": {
+        "to": 74,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/MainActivity.kt"
+      },
+      "updated_on": "2020-05-14T02:46:52.355669+00:00",
+      "type": "pullrequest_comment",
+      "id": 150030488
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150030580"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150030580"
+        }
+      },
+      "parent": {
+        "id": 149866127,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149866127"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149866127"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "Yes, this was to avoid duplicates. `distinctBy` didn’t seem to work.",
+        "markup": "markdown",
+        "html": "<p>Yes, this was to avoid duplicates. <code>distinctBy</code> didn’t seem to work.</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-14T02:47:52.387651+00:00",
+      "user": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "inline": {
+        "to": 23,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-14T02:47:52.392084+00:00",
+      "type": "pullrequest_comment",
+      "id": 150030580
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150031349"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150031349"
+        }
+      },
+      "parent": {
+        "id": 149866502,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/149866502"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-149866502"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "Sorting by `publishedAt` doesn’t get broken there. Actually this was a bug fix too - when we have two elements, published in the same minute, and we reload data via pull to refresh, sometimes those elements \\(with the same `publishedAt`\\) change their order, caused probable by the `HashSet`, and this looks of course very ugly in the UI.",
+        "markup": "markdown",
+        "html": "<p>Sorting by <code>publishedAt</code> doesn’t get broken there. Actually this was a bug fix too - when we have two elements, published in the same minute, and we reload data via pull to refresh, sometimes those elements (with the same <code>publishedAt</code>) change their order, caused probable by the <code>HashSet</code>, and this looks of course very ugly in the UI.</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-14T02:54:24.024931+00:00",
+      "user": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "inline": {
+        "to": 136,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-14T02:54:24.028733+00:00",
+      "type": "pullrequest_comment",
+      "id": 150031349
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150091334"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:34b85c01acbe..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2FMainActivity.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150091334"
+        }
+      },
+      "parent": {
+        "id": 150030488,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150030488"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150030488"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "@{557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49} jepp, as mentioned, we could remove the observer as soon as we have the match for sure. Something like this:\n\n```\nmatchDayViewModel.matchDayMatch.observe(this, Observer { match ->\n  if (match == null) return@Observer\n  this@Observer.removeObserver(this@MainActivity)\n  ...\n}\n```\n\n‌",
+        "markup": "markdown",
+        "html": "<p><span class=\"ap-mention\" data-atlassian-id=\"557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49\">@Mehmed Mert</span> jepp, as mentioned, we could remove the observer as soon as we have the match for sure. Something like this:</p>\n<div class=\"codehilite\"><pre><span></span>matchDayViewModel.matchDayMatch.observe(this, Observer { match -&gt;\n  if (match == null) return@Observer\n  this@Observer.removeObserver(this@MainActivity)\n  ...\n}\n</pre></div>\n\n\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-14T08:23:46.520889+00:00",
+      "user": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "inline": {
+        "to": 74,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/MainActivity.kt"
+      },
+      "updated_on": "2020-05-14T08:23:46.535604+00:00",
+      "type": "pullrequest_comment",
+      "id": 150091334
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150093715"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150093715"
+        }
+      },
+      "parent": {
+        "id": 150031349,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150031349"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150031349"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "@{557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49} This mayprobably be caused by comparing these items in the DiffUtil of the Adapter. Could you please check this and remove the sorting if it works like this? Either the `isItemTheSame` or `isContentTheSame` may have not enough checks to clearly decide which item is which. ",
+        "markup": "markdown",
+        "html": "<p><span class=\"ap-mention\" data-atlassian-id=\"557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49\">@Mehmed Mert</span> This mayprobably be caused by comparing these items in the DiffUtil of the Adapter. Could you please check this and remove the sorting if it works like this? Either the <code>isItemTheSame</code> or <code>isContentTheSame</code> may have not enough checks to clearly decide which item is which. </p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-14T08:31:59.107729+00:00",
+      "user": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "inline": {
+        "to": 136,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-14T08:31:59.121477+00:00",
+      "type": "pullrequest_comment",
+      "id": 150093715
+    },
+    {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150305328"
+        },
+        "code": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747..32b32fa3d8af?path=bvb_new%2Fsrc%2Fmain%2Fjava%2Fde%2Fbvb09%2Fandroid%2Fscreens%2Fmatchday%2FMatchDayViewModel.kt"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150305328"
+        }
+      },
+      "parent": {
+        "id": 150093715,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments/150093715"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215/_/diff#comment-150093715"
+          }
+        }
+      },
+      "deleted": false,
+      "pullrequest": {
+        "type": "pullrequest",
+        "id": 215,
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+          },
+          "html": {
+            "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+          }
+        },
+        "title": "BVB2-331 Pull To Refresh"
+      },
+      "content": {
+        "raw": "@{5b83c633f21b0b2a6cab6675} I just checked the `DiffCallback` in `MatchDayAdapter` and extended it with the latest fields of `MatchDayItem`. But this issue that I encountered still doesn’t have to do anything with the `DiffUtil`, it’s completely related to the sorting of the elements. As you know, DiffUtil is only for recognising the data changes of the elements…",
+        "markup": "markdown",
+        "html": "<p><span class=\"ap-mention ap-mention-me\" data-atlassian-id=\"5b83c633f21b0b2a6cab6675\">@Florian Meyer</span> I just checked the <code>DiffCallback</code> in <code>MatchDayAdapter</code> and extended it with the latest fields of <code>MatchDayItem</code>. But this issue that I encountered still doesn’t have to do anything with the <code>DiffUtil</code>, it’s completely related to the sorting of the elements. As you know, DiffUtil is only for recognising the data changes of the elements…</p>",
+        "type": "rendered"
+      },
+      "created_on": "2020-05-15T00:50:47.382990+00:00",
+      "user": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "inline": {
+        "to": 136,
+        "from": null,
+        "path": "bvb_new/src/main/java/de/bvb09/android/screens/matchday/MatchDayViewModel.kt"
+      },
+      "updated_on": "2020-05-15T00:50:47.393106+00:00",
+      "type": "pullrequest_comment",
+      "id": 150305328
+    }
+  ],
+  "page": 1,
+  "size": 10
+}

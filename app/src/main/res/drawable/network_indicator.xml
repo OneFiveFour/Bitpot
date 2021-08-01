@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="3dp"
+    android:viewportWidth="300"
+    android:viewportHeight="4">
+    <path
+        android:fillColor="@color/color_background_variant"
+        android:pathData="M2,0L298,0A2,2 0,0 1,300 2L300,2A2,2 0,0 1,298 4L2,4A2,2 0,0 1,0 2L0,2A2,2 0,0 1,2 0z" />
+
+    <group android:name="loadingBar">
+        <path
+            android:fillColor="@color/color_primary_variant"
+            android:pathData="M2,0L48,0A2,2 0,0 1,50 2L50,2A2,2 0,0 1,48 4L2,4A2,2 0,0 1,0 2L0,2A2,2 0,0 1,2 0z" />
+    </group>
+</vector>

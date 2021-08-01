@@ -1,0 +1,240 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "path": "app",
+      "type": "commit_directory",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/app/"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/app/?format=meta"
+        }
+      },
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      }
+    },
+    {
+      "path": "gradle",
+      "type": "commit_directory",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradle/"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradle/?format=meta"
+        }
+      },
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      }
+    },
+    {
+      "mimetype": null,
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/.gitignore"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/.gitignore?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/.gitignore"
+        }
+      },
+      "escaped_path": ".gitignore",
+      "path": ".gitignore",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 896
+    },
+    {
+      "mimetype": null,
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/build.gradle"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/build.gradle?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/build.gradle"
+        }
+      },
+      "escaped_path": "build.gradle",
+      "path": "build.gradle",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 661
+    },
+    {
+      "mimetype": null,
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradle.properties"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradle.properties?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/gradle.properties"
+        }
+      },
+      "escaped_path": "gradle.properties",
+      "path": "gradle.properties",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 1163
+    },
+    {
+      "mimetype": null,
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew"
+        }
+      },
+      "escaped_path": "gradlew",
+      "path": "gradlew",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 5296
+    },
+    {
+      "mimetype": "text/plain",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew.bat"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew.bat?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/gradlew.bat"
+        }
+      },
+      "escaped_path": "gradlew.bat",
+      "path": "gradlew.bat",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 2176
+    },
+    {
+      "mimetype": null,
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/settings.gradle"
+        },
+        "meta": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/src/aaef8a692f03505b2549cb2f828bb0844290230c/settings.gradle?format=meta"
+        },
+        "history": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/filehistory/aaef8a692f03505b2549cb2f828bb0844290230c/settings.gradle"
+        }
+      },
+      "escaped_path": "settings.gradle",
+      "path": "settings.gradle",
+      "commit": {
+        "type": "commit",
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          }
+        }
+      },
+      "attributes": [],
+      "type": "commit_file",
+      "size": 15
+    }
+  ],
+  "page": 1
+}

@@ -1,0 +1,34 @@
+{
+  "title": "This is a merge to test all types of git diff",
+  "participants": [
+    {
+      "user": {
+        "account_id": "5aff2353c91b2435a9f73c24",
+        "links": {
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5aff2353c91b2435a9f73c24/705f0dcf-3a8c-4de5-98f2-4f6c43ba4973/128"
+          }
+        }
+      },
+      "approved": true
+    },
+    {
+      "user": {
+        "account_id": "5b83c633f21b0b2a6cab6675",
+        "links": {
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        }
+      },
+      "approved": true
+    }
+  ],
+  "rendered": {
+    "description": {
+      "raw": "Full sample Diff"
+    }
+  },
+  "state": "OPEN",
+  "id": 2
+}

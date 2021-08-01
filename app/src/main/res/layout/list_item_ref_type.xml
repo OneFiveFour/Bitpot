@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.Ref" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+    <TextView
+        style="@style/TextAppearance.Bitpot.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:ellipsize="end"
+        android:focusable="true"
+        android:maxLines="1"
+        android:text="@{item.name}"
+        binding:ref="@{item}"
+        binding:refClick="@{clickListener}"
+        binding:refDrawable="@{item.type}"
+        tools:drawableLeft="@drawable/ic_branch"
+        tools:text="master" />
+
+
+</layout>

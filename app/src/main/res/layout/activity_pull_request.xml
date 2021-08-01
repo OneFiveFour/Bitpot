@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        
+        <variable
+            name="pullRequestId"
+            type="Integer" />
+        
+        <variable
+            name="pullRequestViewModel"
+            type="net.onefivefour.android.bitpot.screens.pullrequest.PullRequestViewModel" />
+
+        <variable
+            name="repositoryViewModel"
+            type="net.onefivefour.android.bitpot.screens.repository.RepositoryViewModel" />
+
+        <variable
+            name="diffViewModel"
+            type="net.onefivefour.android.bitpot.screens.pullrequest.DiffViewModel" />
+
+        <variable
+            name="commentViewModel"
+            type="net.onefivefour.android.bitpot.screens.pullrequest.CommentViewModel" />
+
+    </data>
+
+    <net.onefivefour.android.bitpot.customviews.pullrequest.SwipeRefreshMotionLayout
+        android:id="@+id/ml_root_pull_request_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene_activity_pull_request"
+        app:layout_constrainedHeight="true">
+
+        <View
+            android:id="@+id/v_details_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/shape_rounded_rect_10dp_bottom"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/s_fake_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:gradientBackground="@{repositoryViewModel.repositoryColors}" />
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/list_item_pull_request"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="@dimen/status_bar_height_plus_16"
+            android:layout_marginEnd="16dp"
+            app:item="@{pullRequestViewModel.pullRequestHeader}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/pb_network_activity"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:indeterminate="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include"
+            binding:loading="@{pullRequestViewModel.isLoading || diffViewModel.isLoading}" />
+
+        <TextView
+            android:id="@+id/tv_pull_request_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@{pullRequestViewModel.getPullRequestDetails().title}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Headline2"
+            android:textColor="@{repositoryViewModel.repositoryColors.textColor}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/include"
+            tools:text="Title Of this PR" />
+
+        <TextView
+            android:id="@+id/tv_pull_request_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            android:textColor="@{repositoryViewModel.repositoryColors.textColor}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pull_request_title"
+            binding:pullRequestDescription="@{pullRequestViewModel.getPullRequestDetails().descriptionMarkdown}"
+            tools:text="This is the description of this PR." />
+
+        <net.onefivefour.android.bitpot.customviews.participants.ParticipantsListLayout
+            android:id="@+id/rlv_participants"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_approve"
+            app:layout_constraintEnd_toStartOf="@+id/btn_approve"
+            app:layout_constraintStart_toStartOf="@+id/include"
+            app:layout_constraintTop_toTopOf="@+id/btn_merge_pull_request"
+            binding:borderColor="@{repositoryViewModel.repositoryColors.gradientFromColor}"
+            binding:participants="@{pullRequestViewModel.getPullRequestDetails().participants}" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_approve"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:ellipsize="none"
+            android:letterSpacing="0.04"
+            android:singleLine="true"
+            android:textColor="@{repositoryViewModel.repositoryColors.textColor}"
+            app:icon="@drawable/ic_check_mark_transparent"
+            app:iconPadding="8dp"
+            app:layout_constraintEnd_toStartOf="@+id/btn_merge_pull_request"
+            app:layout_constraintTop_toTopOf="@+id/btn_merge_pull_request"
+            binding:hasApproved="@{pullRequestViewModel.hasApproved()}"
+            binding:iconTint="@{repositoryViewModel.repositoryColors}"
+            binding:outlineColor="@{repositoryViewModel.repositoryColors}"
+            binding:viewModel="@{pullRequestViewModel}" />
+
+        <Button
+            android:id="@+id/btn_merge_pull_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="4dp"
+            android:ellipsize="none"
+            android:singleLine="true"
+            android:stateListAnimator="@null"
+            android:text="@{pullRequestViewModel.isMerged() ? @string/merged : @string/merge}"
+            android:enabled="@{!pullRequestViewModel.isMerged()}"
+            android:translationZ="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pull_request_description" />
+
+        <!--
+            To avoid using negative margins, this Space creates a porper
+            distance to the merge button. It can then be used as Constraint
+            for the view container.
+        -->
+        <Space
+            android:id="@+id/s_fake_margin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_merge_pull_request" />
+
+        <TextView
+            android:id="@+id/btn_add_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:background="@drawable/shape_rounded_rect_left_with_ripple_5dp"
+            android:backgroundTint="@color/color_primary"
+            android:clickable="true"
+            android:drawablePadding="8dp"
+            android:focusable="true"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="@string/comment"
+            android:textAllCaps="true"
+            android:textColor="@color/color_on_primary"
+            app:drawableTint="@color/color_on_primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/s_fake_margin"
+            app:drawableStartCompat="@drawable/ic_comment" />
+
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/str_diff"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_add_comment"
+            binding:isCommentsRefreshing="@{commentViewModel.isRefreshing()}"
+            binding:isDiffRefreshing="@{diffViewModel.isRefreshing()}"
+            >
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_diff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/list_item_diff" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    </net.onefivefour.android.bitpot.customviews.pullrequest.SwipeRefreshMotionLayout>
+</layout>

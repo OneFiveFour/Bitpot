@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/fragment_sources_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".screens.sources.SourcesFragment">
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/spl_source_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pb_network_activity">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_source_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="10"
+                tools:listitem="@layout/list_item_source" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+        <Button
+            android:id="@+id/btn_select_branch"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:ellipsize="end"
+            android:letterSpacing="0"
+            android:maxLines="1"
+            android:text="@{sourcesViewModel.selectedRefName}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="BVB-1234-a-great-feature-branch" />
+
+        <TextView
+            android:id="@+id/tv_selected_path"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:drawablePadding="8dp"
+            android:ellipsize="start"
+            android:singleLine="true"
+            android:text="@{`/` + sourcesViewModel.selectedPath}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:drawableStartCompat="@drawable/ic_folder"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_select_branch"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_select_branch"
+            app:layout_constraintTop_toTopOf="@+id/btn_select_branch"
+            tools:text="/src/main/" />
+
+
+        <ProgressBar
+            android:id="@+id/pb_network_activity"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:indeterminate="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_select_branch" />
+
+        <TextView
+            android:id="@+id/tv_no_sources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="16dp"
+            android:text="@string/no_files_found"
+            android:textColor="@color/color_primary"
+            app:drawableTopCompat="@drawable/no_sources_found"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="sourcesViewModel"
+            type="net.onefivefour.android.bitpot.screens.sources.SourcesViewModel" />
+
+    </data>
+
+</layout>

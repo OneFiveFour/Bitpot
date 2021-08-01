@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <merge
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+        <ImageView
+            android:id="@+id/iv_file_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_file_path"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_file_path"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/ic_file_added" />
+
+        <ImageView
+            android:id="@+id/iv_add_file_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_comment"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_file_path"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/sv_content_scroller"
+            android:contentDescription="@string/add_a_comment" />
+
+        <TextView
+            android:id="@+id/tv_file_path"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="start"
+            android:singleLine="true"
+            android:textAppearance="?textAppearanceCaption"
+            android:textColor="@color/color_on_surface_variant"
+            app:layout_constraintBottom_toTopOf="@+id/sv_content_scroller"
+            app:layout_constraintEnd_toStartOf="@+id/iv_add_file_comment"
+            app:layout_constraintStart_toEndOf="@+id/iv_file_type"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="/bvb_new/src/main/java/de/bvb/android/screens/home/HomeFragment.kt" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/sv_content_scroller"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_file_path">
+
+            <LinearLayout
+                android:id="@+id/ll_diff_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </HorizontalScrollView>
+
+    </merge>
+</layout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_rect_with_ripple_10dp"
+        binding:clickListener="@{clickListener}"
+        binding:clickListenerItem="@{item}"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/tv_legal_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{item.titleRes}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="bestEvents" />
+
+        <TextView
+            android:id="@+id/tv_legal_last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_legal_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_legal_title"
+            binding:humanizedAgo="@{item.lastUpdated}"
+            tools:text="12 minutes ago" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.LegalItem" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+</layout>

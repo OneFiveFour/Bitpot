@@ -1,0 +1,105 @@
+{
+  "values": [
+    {
+      "created_on": "2020-05-15T14:59:05.756439+00:00",
+      "name": "BVB2-364-remove-recent-events-for-english-apps--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-364-remove-recent-events-for-english-apps--debug.apk"
+        }
+      },
+      "size": 27615276
+    },
+    {
+      "created_on": "2020-05-15T14:41:35.295373+00:00",
+      "name": "remove-recent-events-for-english-apps--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/remove-recent-events-for-english-apps--debug.apk"
+        }
+      },
+      "size": 27615318
+    },
+    {
+      "created_on": "2020-05-15T12:24:55.711218+00:00",
+      "name": "BVB2-165-android-ad-integration-live-con--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-165-android-ad-integration-live-con--debug.apk"
+        }
+      },
+      "size": 27617462
+    },
+    {
+      "created_on": "2020-05-15T11:07:30.710141+00:00",
+      "name": "BVB2-333-android-url-in-the-app--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-333-android-url-in-the-app--debug.apk"
+        }
+      },
+      "size": 27615300
+    },
+    {
+      "created_on": "2020-05-15T03:58:59.313835+00:00",
+      "name": "BVB2-267_Splashscreen_Heart_With_Distance--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-267_Splashscreen_Heart_With_Distance--debug.apk"
+        }
+      },
+      "size": 27707344
+    },
+    {
+      "created_on": "2020-05-15T00:41:48.549419+00:00",
+      "name": "BVB2-331_Pull_To_Refresh--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-331_Pull_To_Refresh--debug.apk"
+        }
+      },
+      "size": 27614673
+    },
+    {
+      "created_on": "2020-05-14T16:45:00.509129+00:00",
+      "name": "bvb_new-release.aab",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/bvb_new-release.aab"
+        }
+      },
+      "size": 21286001
+    },
+    {
+      "created_on": "2020-05-14T15:47:53.743193+00:00",
+      "name": "BVB2-356-android-small-space-between-two--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-356-android-small-space-between-two--debug.apk"
+        }
+      },
+      "size": 27615049
+    },
+    {
+      "created_on": "2020-05-14T14:50:58.053728+00:00",
+      "name": "BVB2-330-android-presentation-of-picture--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-330-android-presentation-of-picture--debug.apk"
+        }
+      },
+      "size": 27602992
+    },
+    {
+      "created_on": "2020-05-14T14:18:06.413650+00:00",
+      "name": "BVB2-352-android-match-center-use-colons--debug.apk",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/downloads/BVB2-352-android-match-center-use-colons--debug.apk"
+        }
+      },
+      "size": 27605269
+    }
+  ],
+  "page": 1
+}

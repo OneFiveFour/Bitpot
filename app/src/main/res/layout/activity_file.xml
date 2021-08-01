@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    android:id="@+id/activity_file_motion_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_activity_file"
+    tools:context=".screens.file.FileActivity">
+
+    <!-- use this comment to quickly disable the layoutDescription attribute above.
+    (i.e. disable MotionLayout ConstraintSets)
+
+    -->
+
+    <TextView
+        android:id="@+id/tv_file_name"
+        style="@style/TextAppearance.Bitpot.Body2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:transformPivotX="0sp"
+        android:transformPivotY="7.2sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wv_file_content"
+        tools:text="Filename.kt" />
+
+    <net.onefivefour.android.bitpot.customviews.AnimatedToggleImageView
+        android:id="@+id/iv_toggle_line_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/toggle_line_numbers"
+        app:disabledState="@drawable/anim_line_numbers_hidden"
+        app:enabledState="@drawable/anim_line_numbers_visible"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_share"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_share" />
+
+    <net.onefivefour.android.bitpot.customviews.AnimatedToggleImageView
+        android:id="@+id/iv_toggle_line_wrap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/toggle_line_wrap"
+        app:disabledState="@drawable/anim_line_wrap_disabled"
+        app:enabledState="@drawable/anim_line_wrap_enabled"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_share"
+        app:layout_constraintStart_toEndOf="@+id/iv_toggle_line_numbers"
+        app:layout_constraintTop_toTopOf="@+id/iv_share" />
+
+    <ImageButton
+        android:id="@+id/iv_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:contentDescription="@string/share"
+        android:src="@drawable/ic_share"
+        app:layout_constraintStart_toEndOf="@+id/iv_toggle_line_wrap"
+        app:layout_constraintTop_toBottomOf="@+id/tv_file_name" />
+
+
+    <net.onefivefour.android.bitpot.customviews.RoundedWebView
+        android:id="@+id/wv_file_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:elevation="2dp"
+        android:transitionGroup="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@+id/gl_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_web_view_drag_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wv_file_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        binding:srcCompat="@drawable/drag_indicator"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/v_web_view_touch_region"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wv_file_content"
+        app:layout_constraintEnd_toEndOf="@+id/wv_file_content"
+        app:layout_constraintStart_toStartOf="@+id/wv_file_content"
+        tools:visibility="gone" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="110dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

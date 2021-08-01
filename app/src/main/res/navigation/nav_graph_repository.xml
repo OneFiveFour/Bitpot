@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/fragment_sources">
+
+    <fragment
+        android:id="@+id/fragment_sources"
+        android:name="net.onefivefour.android.bitpot.screens.sources.SourcesFragment"
+        android:label="@string/source"
+        tools:layout="@layout/fragment_sources">
+        <action
+            android:id="@+id/action_navigation_sources_to_fileActivity"
+            app:destination="@id/activity_file" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_pull_requests"
+        android:name="net.onefivefour.android.bitpot.screens.pullrequests.PullRequestsFragment"
+        android:label="@string/pull_requests"
+        tools:layout="@layout/fragment_pull_requests">
+        <action
+            android:id="@+id/action_navigation_pull_requests_to_pullRequestActivity"
+            app:destination="@id/activity_pull_request" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_pipelines"
+        android:name="net.onefivefour.android.bitpot.screens.pipelines.PipelinesFragment"
+        android:label="@string/pipelines"
+        tools:layout="@layout/fragment_pipelines">
+        <argument
+            android:name="repositoryUuid"
+            android:defaultValue="repositoryUuid" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_downloads"
+        android:name="net.onefivefour.android.bitpot.screens.downloads.DownloadsFragment"
+        android:label="@string/downloads"
+        tools:layout="@layout/fragment_downloads" />
+    <activity
+        android:id="@+id/activity_file"
+        android:name="net.onefivefour.android.bitpot.screens.file.FileActivity"
+        android:label="FileActivity"
+        tools:layout="@layout/activity_file">
+        <argument
+            android:name="refHash"
+            app:argType="string" />
+        <argument
+            android:name="filePath"
+            app:argType="string" />
+        <argument
+            android:name="fileName"
+            app:argType="string" />
+    </activity>
+    <activity
+        android:id="@+id/activity_pull_request"
+        android:name="net.onefivefour.android.bitpot.screens.pullrequest.PullRequestActivity"
+        android:label="@string/pull_request">
+        <argument
+            android:name="workspaceUuid"
+            app:argType="string" />
+        <argument
+            android:name="repositoryUuid"
+            app:argType="string" />
+        <argument
+            android:name="pullRequestId"
+            app:argType="integer" />
+    </activity>
+</navigation>

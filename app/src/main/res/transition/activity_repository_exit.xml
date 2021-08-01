@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="together">
+
+    <slide android:slideEdge="top" android:interpolator="@android:interpolator/accelerate_quad">
+        <targets>
+            <target android:targetId="@+id/v_top_sheet"/>
+            <target android:targetId="@+id/tv_repo_name"/>
+            <target android:targetId="@+id/iv_notification_status"/>
+            <target android:targetId="@+id/v_notifications_container"/>
+            <target android:targetId="@+id/tv_notifications"/>
+            <target android:targetId="@+id/sw_pipeline_updates"/>
+            <target android:targetId="@+id/sw_pull_request_updates"/>
+            <target android:targetId="@+id/pb_network_activity_notifications"/>
+            <target android:targetId="@+id/tv_repo_full_name"/>
+            <target android:targetId="@+id/iv_repo_avatar"/>
+            <target android:targetId="@+id/iv_repo_private"/>
+            <target android:targetId="@+id/iv_top_sheet_drag_indicator"/>
+        </targets>
+    </slide>
+
+    <slide android:slideEdge="bottom" android:interpolator="@android:interpolator/accelerate_quad">
+        <targets>
+            <target android:targetId="@+id/activity_repository_bottom_nav"/>
+        </targets>
+    </slide>
+
+    <fade />
+</transitionSet>

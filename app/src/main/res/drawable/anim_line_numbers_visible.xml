@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_toggle_line_numbers" >
+    <target
+        android:name="lineNumbers"
+        android:animation="@animator/line_numbers_show_numbers" />
+    <target
+        android:name="topLine"
+        android:animation="@animator/line_numbers_shrink_top_line" />
+    <target
+        android:name="middleLine"
+        android:animation="@animator/line_numbers_shrink_middle_line" />
+    <target
+        android:name="bottomLine"
+        android:animation="@animator/line_numbers_shrink_bottom_line" />
+</animated-vector>

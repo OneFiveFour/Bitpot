@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_rect_with_ripple_10dp"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:focusable="true"
+        binding:download="@{item}"
+        binding:downloadClick="@{clickListener}">
+
+        <TextView
+            android:id="@+id/tv_download_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{item.name}"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body1"
+            app:layout_constraintEnd_toStartOf="@+id/tv_download_file_size"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="HER-214-Ad-banner-in-live-stream" />
+
+        <TextView
+            android:id="@+id/tv_download_created_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.Bitpot.Subtitle2"
+            app:layout_constraintStart_toStartOf="@+id/tv_download_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_download_name"
+            binding:humanizedAgo="@{item.createdOn}"
+            tools:text="12 minutes ago" />
+
+        <TextView
+            android:id="@+id/tv_download_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            binding:humanizedFileSize="@{item.fileSize}"
+            tools:text="12 MB" />
+
+        <ProgressBar
+            android:id="@+id/pb_download_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_download_created_on"
+            binding:downloadProgress="@{item.downloadProgress}" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <data>
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.Download" />
+
+        <variable
+            name="clickListener"
+            type="net.onefivefour.android.bitpot.common.ItemClickListener" />
+    </data>
+
+</layout>

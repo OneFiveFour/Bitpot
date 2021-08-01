@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Preferences -->
+    <string name="preference_dark_mode_default">-1</string>
+
+    <string-array name="preference_dark_mode_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Use system default</item>
+    </string-array>
+
+    <!-- Starting from API 29, the previous "Set by Battery Saver" setting
+     is replaced by "Use system default" -->
+    <string-array name="preference_dark_mode_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>

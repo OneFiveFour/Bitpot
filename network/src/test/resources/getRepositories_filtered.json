@@ -1,0 +1,155 @@
+{
+  "values": [
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+        }
+      },
+      "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}",
+      "full_name": "companymobile/android_bvb_new",
+      "updated_on": "2020-05-15T17:54:57.866072+00:00",
+      "is_private": true,
+      "name": "android_bvb_new"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B65ee811d-460d-491c-b0fb-342dd7265561%7D?ts=2024709"
+        }
+      },
+      "uuid": "{65ee811d-460d-491c-b0fb-342dd7265561}",
+      "full_name": "companymobile/ios_core",
+      "updated_on": "2020-05-15T14:39:27.817213+00:00",
+      "is_private": true,
+      "name": "ios_core"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B0ccbadd0-3ee0-4983-9876-307c713ee8ae%7D?ts=default"
+        }
+      },
+      "uuid": "{0ccbadd0-3ee0-4983-9876-307c713ee8ae}",
+      "full_name": "companymobile/android_clubplatform_sdk",
+      "updated_on": "2020-05-15T13:51:29.265291+00:00",
+      "is_private": true,
+      "name": "android_clubplatform_sdk"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7Ba5a386e3-0d77-4a95-b08d-483b1cc387e4%7D?ts=2036406"
+        }
+      },
+      "uuid": "{a5a386e3-0d77-4a95-b08d-483b1cc387e4}",
+      "full_name": "companymobile/ios_bvb_new",
+      "updated_on": "2020-05-15T13:40:28.618199+00:00",
+      "is_private": true,
+      "name": "ios_bvb_new"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B2ab2e919-792e-4e4a-ab01-25d3d05c32e7%7D?ts=2010142"
+        }
+      },
+      "uuid": "{2ab2e919-792e-4e4a-ab01-25d3d05c32e7}",
+      "full_name": "companymobile/android_bsc",
+      "updated_on": "2020-05-15T12:18:15.088274+00:00",
+      "is_private": true,
+      "name": "android_bsc"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B09fd4b49-dc49-47b4-b56d-acd8bd842142%7D?ts=1810575"
+        }
+      },
+      "uuid": "{09fd4b49-dc49-47b4-b56d-acd8bd842142}",
+      "full_name": "companymobile/android_fcn",
+      "updated_on": "2020-05-15T09:07:13.272916+00:00",
+      "is_private": true,
+      "name": "android_fcn"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B8e60885a-2bcf-4678-be48-be4cabb4bce4%7D?ts=1713871"
+        }
+      },
+      "uuid": "{8e60885a-2bcf-4678-be48-be4cabb4bce4}",
+      "full_name": "companymobile/ios_hsv",
+      "updated_on": "2020-05-14T09:48:32.377244+00:00",
+      "is_private": true,
+      "name": "ios_hsv"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B44c0b753-ca8f-4b9c-b7c0-a449f3406781%7D?ts=1458475"
+        }
+      },
+      "uuid": "{44c0b753-ca8f-4b9c-b7c0-a449f3406781}",
+      "full_name": "companymobile/android_bvb",
+      "updated_on": "2020-05-13T15:27:35.834514+00:00",
+      "is_private": true,
+      "name": "android_bvb"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B48838589-6e0b-416e-aa17-1c36e8783fa0%7D?ts=2005206"
+        }
+      },
+      "uuid": "{48838589-6e0b-416e-aa17-1c36e8783fa0}",
+      "full_name": "companymobile/ios_bsc",
+      "updated_on": "2020-05-13T14:33:49.076662+00:00",
+      "is_private": true,
+      "name": "ios_bsc"
+    },
+    {
+      "workspace": {
+        "uuid": "{ab590bec-b32d-4e0d-a06c-3e1c053215df}"
+      },
+      "links": {
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B3223f4b0-8480-4333-b1a0-f0dfcfaa4ab9%7D?ts=1458318"
+        }
+      },
+      "uuid": "{3223f4b0-8480-4333-b1a0-f0dfcfaa4ab9}",
+      "full_name": "companymobile/ios_fcn",
+      "updated_on": "2020-05-13T14:32:22.857440+00:00",
+      "is_private": true,
+      "name": "ios_fcn"
+    }
+  ],
+  "page": 1
+}

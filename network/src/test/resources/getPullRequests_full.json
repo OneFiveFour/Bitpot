@@ -1,0 +1,717 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "description": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+      "links": {
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/decline"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diffstat/companymobile/android_bvb_new:84922e90f1df%0D32b32fa3d8af?from_pullrequest_id=226"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/commits"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/comments"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/merge"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/226"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/activity"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:84922e90f1df%0D32b32fa3d8af?from_pullrequest_id=226"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/approve"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/226/statuses"
+        }
+      },
+      "title": "BVB2-364 remove recent events for english apps",
+      "close_source_branch": false,
+      "type": "pullrequest",
+      "id": 226,
+      "destination": {
+        "commit": {
+          "hash": "32b32fa3d8af",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "develop"
+        }
+      },
+      "created_on": "2020-05-15T14:57:24.916492+00:00",
+      "summary": {
+        "raw": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+        "markup": "markdown",
+        "html": "<p>Some important points to keep in mind and check while reviewing code:</p>\n<ul>\n<li><strong>Code format &amp; clean code</strong> - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?</li>\n<li><strong>Idioms</strong> - does the code violate language idioms? Is there a chance for optimization?</li>\n<li><strong>Architecture</strong> - does the code violate architectural principles (like depending on higher-level abstractions in lower-layers)?</li>\n<li>Conflict with <strong>other stories</strong> WIP - could the code brake (in functional meaning, not compiling) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?</li>\n</ul>\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "source": {
+        "commit": {
+          "hash": "84922e90f1df",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/84922e90f1df"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/84922e90f1df"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "BVB2-364-remove-recent-events-for-english-apps"
+        }
+      },
+      "comment_count": 0,
+      "state": "OPEN",
+      "task_count": 0,
+      "reason": "",
+      "updated_on": "2020-05-15T17:54:57.866072+00:00",
+      "author": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "nickname": "laurenz.baumgart",
+        "type": "user",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "merge_commit": null,
+      "closed_by": null
+    },
+    {
+      "description": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+      "links": {
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/decline"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diffstat/companymobile/android_bvb_new:84922e90f1df%0D32b32fa3d8af?from_pullrequest_id=225"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/commits"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/comments"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/merge"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/225"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/activity"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:84922e90f1df%0D32b32fa3d8af?from_pullrequest_id=225"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/approve"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/225/statuses"
+        }
+      },
+      "title": "Add language check for displaying the recent events fragment",
+      "close_source_branch": false,
+      "type": "pullrequest",
+      "id": 225,
+      "destination": {
+        "commit": {
+          "hash": "32b32fa3d8af",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "develop"
+        }
+      },
+      "created_on": "2020-05-15T11:12:45.668524+00:00",
+      "summary": {
+        "raw": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+        "markup": "markdown",
+        "html": "<p>Some important points to keep in mind and check while reviewing code:</p>\n<ul>\n<li><strong>Code format &amp; clean code</strong> - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?</li>\n<li><strong>Idioms</strong> - does the code violate language idioms? Is there a chance for optimization?</li>\n<li><strong>Architecture</strong> - does the code violate architectural principles (like depending on higher-level abstractions in lower-layers)?</li>\n<li>Conflict with <strong>other stories</strong> WIP - could the code brake (in functional meaning, not compiling) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?</li>\n</ul>\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "source": {
+        "commit": {
+          "hash": "84922e90f1df",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/84922e90f1df"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/84922e90f1df"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "remove-recent-events-for-english-apps"
+        }
+      },
+      "comment_count": 1,
+      "state": "OPEN",
+      "task_count": 0,
+      "reason": "",
+      "updated_on": "2020-05-15T17:54:16.810741+00:00",
+      "author": {
+        "display_name": "Laurenz Baumgart",
+        "uuid": "{678be84f-8701-4ddd-bd82-26ee87bc11e0}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B678be84f-8701-4ddd-bd82-26ee87bc11e0%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5dce6d4297a0a20c66405b1a/f2c52c6a-c958-4c21-b33b-6f0e7e1d3a97/128"
+          }
+        },
+        "nickname": "laurenz.baumgart",
+        "type": "user",
+        "account_id": "5dce6d4297a0a20c66405b1a"
+      },
+      "merge_commit": null,
+      "closed_by": null
+    },
+    {
+      "description": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+      "links": {
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/decline"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diffstat/companymobile/android_bvb_new:dd9e21d14b3f%0D32b32fa3d8af?from_pullrequest_id=221"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/commits"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/comments"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/merge"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/221"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/activity"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:dd9e21d14b3f%0D32b32fa3d8af?from_pullrequest_id=221"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/approve"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/221/statuses"
+        }
+      },
+      "title": "BVB2-165 android ad integration live con",
+      "close_source_branch": false,
+      "type": "pullrequest",
+      "id": 221,
+      "destination": {
+        "commit": {
+          "hash": "32b32fa3d8af",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "develop"
+        }
+      },
+      "created_on": "2020-05-14T16:10:19.804212+00:00",
+      "summary": {
+        "raw": "Some important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+        "markup": "markdown",
+        "html": "<p>Some important points to keep in mind and check while reviewing code:</p>\n<ul>\n<li><strong>Code format &amp; clean code</strong> - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?</li>\n<li><strong>Idioms</strong> - does the code violate language idioms? Is there a chance for optimization?</li>\n<li><strong>Architecture</strong> - does the code violate architectural principles (like depending on higher-level abstractions in lower-layers)?</li>\n<li>Conflict with <strong>other stories</strong> WIP - could the code brake (in functional meaning, not compiling) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?</li>\n</ul>\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "source": {
+        "commit": {
+          "hash": "dd9e21d14b3f",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/dd9e21d14b3f"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/dd9e21d14b3f"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "BVB2-165-android-ad-integration-live-con"
+        }
+      },
+      "comment_count": 3,
+      "state": "OPEN",
+      "task_count": 0,
+      "reason": "",
+      "updated_on": "2020-05-15T12:27:32.782718+00:00",
+      "author": {
+        "display_name": "Bilal Ahmed",
+        "uuid": "{392ea192-4e4b-446c-89e8-8b9e8288ed31}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B392ea192-4e4b-446c-89e8-8b9e8288ed31%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B392ea192-4e4b-446c-89e8-8b9e8288ed31%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5d19a4c7dea8360d16bcf63a/88e898f3-09cd-4e91-92b6-8cfcaad60836/128"
+          }
+        },
+        "nickname": "Bilal Ahmed",
+        "type": "user",
+        "account_id": "5d19a4c7dea8360d16bcf63a"
+      },
+      "merge_commit": null,
+      "closed_by": null
+    },
+    {
+      "description": "This PR is based on [https://bitbucket.org/companymobile/android\\_bvb\\_new/pull-requests/213](https://bitbucket.org/companymobile/android_bvb_new/pull-requests/213), so please review and merge it first\r\n\r\n---\r\n\r\nSome important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+      "links": {
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/decline"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diffstat/companymobile/android_bvb_new:fb88ae987747%0D32b32fa3d8af?from_pullrequest_id=215"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/commits"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/comments"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/merge"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/activity"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:fb88ae987747%0D32b32fa3d8af?from_pullrequest_id=215"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/approve"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/215/statuses"
+        }
+      },
+      "title": "BVB2-331 Pull To Refresh",
+      "close_source_branch": true,
+      "type": "pullrequest",
+      "id": 215,
+      "destination": {
+        "commit": {
+          "hash": "32b32fa3d8af",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "develop"
+        }
+      },
+      "created_on": "2020-05-13T06:11:44.750570+00:00",
+      "summary": {
+        "raw": "This PR is based on [https://bitbucket.org/companymobile/android\\_bvb\\_new/pull-requests/213](https://bitbucket.org/companymobile/android_bvb_new/pull-requests/213), so please review and merge it first\r\n\r\n---\r\n\r\nSome important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+        "markup": "markdown",
+        "html": "<p>This PR is based on <a data-is-external-link=\"true\" href=\"https://bitbucket.org/companymobile/android_bvb_new/pull-requests/213\" rel=\"nofollow\">https://bitbucket.org/companymobile/android_bvb_new/pull-requests/213</a>, so please review and merge it first</p>\n<hr />\n<p>Some important points to keep in mind and check while reviewing code:</p>\n<ul>\n<li><strong>Code format &amp; clean code</strong> - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?</li>\n<li><strong>Idioms</strong> - does the code violate language idioms? Is there a chance for optimization?</li>\n<li><strong>Architecture</strong> - does the code violate architectural principles (like depending on higher-level abstractions in lower-layers)?</li>\n<li>Conflict with <strong>other stories</strong> WIP - could the code brake (in functional meaning, not compiling) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?</li>\n</ul>\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "source": {
+        "commit": {
+          "hash": "fb88ae987747",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/fb88ae987747"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/fb88ae987747"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "BVB2-331_Pull_To_Refresh"
+        }
+      },
+      "comment_count": 10,
+      "state": "OPEN",
+      "task_count": 0,
+      "reason": "",
+      "updated_on": "2020-05-15T00:50:47.393106+00:00",
+      "author": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "merge_commit": null,
+      "closed_by": null
+    },
+    {
+      "description": "Based on [https://bitbucket.org/companymobile/android\\_bvb\\_new/pull-requests/215](https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215)\r\n\r\n---\r\n\r\nSome important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+      "links": {
+        "decline": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/decline"
+        },
+        "diffstat": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diffstat/companymobile/android_bvb_new:5b931151e9d5%0D32b32fa3d8af?from_pullrequest_id=219"
+        },
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/commits"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219"
+        },
+        "comments": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/comments"
+        },
+        "merge": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/merge"
+        },
+        "html": {
+          "href": "https://bitbucket.org/companymobile/android_bvb_new/pull-requests/219"
+        },
+        "activity": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/activity"
+        },
+        "diff": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/diff/companymobile/android_bvb_new:5b931151e9d5%0D32b32fa3d8af?from_pullrequest_id=219"
+        },
+        "approve": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/approve"
+        },
+        "statuses": {
+          "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/pullrequests/219/statuses"
+        }
+      },
+      "title": "BVB2-357 MatchDayStream No Content Issue",
+      "close_source_branch": true,
+      "type": "pullrequest",
+      "id": 219,
+      "destination": {
+        "commit": {
+          "hash": "32b32fa3d8af",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/32b32fa3d8af"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/32b32fa3d8af"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "develop"
+        }
+      },
+      "created_on": "2020-05-14T04:10:22.300609+00:00",
+      "summary": {
+        "raw": "Based on [https://bitbucket.org/companymobile/android\\_bvb\\_new/pull-requests/215](https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215)\r\n\r\n---\r\n\r\nSome important points to keep in mind and check while reviewing code:\r\n\r\n* **Code format & clean code** - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?\r\n* **Idioms** - does the code violate language idioms? Is there a chance for optimization?\r\n* **Architecture** - does the code violate architectural principles \\(like depending on higher-level abstractions in lower-layers\\)?\r\n* Conflict with **other stories** WIP - could the code brake \\(in functional meaning, not compiling\\) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?\r\n\r\n‌",
+        "markup": "markdown",
+        "html": "<p>Based on <a data-is-external-link=\"true\" href=\"https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215\" rel=\"nofollow\">https://bitbucket.org/companymobile/android_bvb_new/pull-requests/215</a></p>\n<hr />\n<p>Some important points to keep in mind and check while reviewing code:</p>\n<ul>\n<li><strong>Code format &amp; clean code</strong> - empty lines, whitespaces, indention, etc. Is it up to language standards? Is the code, the naming of abstractions, etc. easily understandable?</li>\n<li><strong>Idioms</strong> - does the code violate language idioms? Is there a chance for optimization?</li>\n<li><strong>Architecture</strong> - does the code violate architectural principles (like depending on higher-level abstractions in lower-layers)?</li>\n<li>Conflict with <strong>other stories</strong> WIP - could the code brake (in functional meaning, not compiling) after merging all the stories which are currently WIP? Would be there some code duplications after merging all the stories, which could be avoided by implementing additionally some patterns?</li>\n</ul>\n<p>‌</p>",
+        "type": "rendered"
+      },
+      "source": {
+        "commit": {
+          "hash": "5b931151e9d5",
+          "type": "commit",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new/commit/5b931151e9d5"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new/commits/5b931151e9d5"
+            }
+          }
+        },
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/companymobile/android_bvb_new"
+            },
+            "html": {
+              "href": "https://bitbucket.org/companymobile/android_bvb_new"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Bfeafd0d9-f8cc-4baf-bbe1-b7b4cff3119c%7D?ts=2036411"
+            }
+          },
+          "type": "repository",
+          "name": "android_bvb_new",
+          "full_name": "companymobile/android_bvb_new",
+          "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+        },
+        "branch": {
+          "name": "BVB2-357_MatchDayStream_No_Content_Issue"
+        }
+      },
+      "comment_count": 2,
+      "state": "OPEN",
+      "task_count": 0,
+      "reason": "",
+      "updated_on": "2020-05-14T12:47:28.381491+00:00",
+      "author": {
+        "display_name": "Mehmed Mert",
+        "uuid": "{80ae65b6-d914-434a-b936-ebeb830fd1fd}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7B80ae65b6-d914-434a-b936-ebeb830fd1fd%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49/7ac292c4-6e2d-464d-a500-a5103885610d/128"
+          }
+        },
+        "nickname": "Mehmed Mert",
+        "type": "user",
+        "account_id": "557058:153eb3a8-a42b-4900-b6d9-34be0ffe7b49"
+      },
+      "merge_commit": null,
+      "closed_by": null
+    }
+  ],
+  "page": 1,
+  "size": 5
+}

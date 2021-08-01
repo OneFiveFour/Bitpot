@@ -1,0 +1,262 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "read_only": true,
+      "description": "Pipelines",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7B611c7c0b-26df-438b-8712-4f7a8d850c9c%7D"
+        }
+      },
+      "url": "https://bitbucket-pipelines.prod.public.atl-paas.net/rest/bitbucket/event/connect/onpush",
+      "created_at": "2020-04-07T09:26:51.266411Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "repo:push"
+      ],
+      "uuid": "{611c7c0b-26df-438b-8712-4f7a8d850c9c}"
+    },
+    {
+      "read_only": true,
+      "description": "Pipelines",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7B7962baef-e976-4bce-99ae-6fca74c25829%7D"
+        }
+      },
+      "url": "https://bitbucket-pipelines.prod.public.atl-paas.net/rest/bitbucket/event/connect/pullrequest",
+      "created_at": "2020-04-07T09:26:51.258331Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "pullrequest:created",
+        "pullrequest:updated"
+      ],
+      "uuid": "{7962baef-e976-4bce-99ae-6fca74c25829}"
+    },
+    {
+      "read_only": true,
+      "description": "Pull Request Commit Links",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7B590e5fbc-a321-4d79-8a84-a3c4bf9eec03%7D"
+        }
+      },
+      "url": "https://bitbucket-prlinks.us-east-1.prod.public.atl-paas.net/webhook/pr",
+      "created_at": "2020-03-08T20:48:43.678462Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "pullrequest:created",
+        "pullrequest:updated",
+        "pullrequest:rejected",
+        "pullrequest:fulfilled"
+      ],
+      "uuid": "{590e5fbc-a321-4d79-8a84-a3c4bf9eec03}"
+    },
+    {
+      "read_only": true,
+      "description": "Chat Notifications",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7Bba959ed0-88ea-40cb-9958-57abfc80df79%7D"
+        }
+      },
+      "url": "https://bitbucket-chats-integration.prod.atl-paas.net/api/bitbucket/teams/update",
+      "created_at": "2019-04-24T13:29:00.786112Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "user:account_property_changed"
+      ],
+      "uuid": "{ba959ed0-88ea-40cb-9958-57abfc80df79}"
+    },
+    {
+      "read_only": true,
+      "description": "Chat Notifications",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7B9e84ba97-5bd0-4165-b5c2-d75d4a78bf0d%7D"
+        }
+      },
+      "url": "https://bitbucket-chats-integration.prod.atl-paas.net/api/bitbucket/repos/delete",
+      "created_at": "2019-04-24T13:29:00.767631Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "repo:transfer",
+        "repo:deleted"
+      ],
+      "uuid": "{9e84ba97-5bd0-4165-b5c2-d75d4a78bf0d}"
+    },
+    {
+      "read_only": true,
+      "description": "Chat Notifications",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks/%7B4e6242c6-8591-4b25-ac9a-2cc883c9b9a9%7D"
+        }
+      },
+      "url": "https://bitbucket-chats-integration.prod.atl-paas.net/api/bitbucket/hooks",
+      "created_at": "2019-04-24T13:29:00.704260Z",
+      "skip_cert_verification": false,
+      "source": "connect",
+      "history_enabled": false,
+      "active": true,
+      "subject": {
+        "display_name": "Florian Meyer",
+        "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+          },
+          "avatar": {
+            "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+          }
+        },
+        "nickname": "Florian Meyer",
+        "type": "user",
+        "account_id": "5b83c633f21b0b2a6cab6675"
+      },
+      "type": "webhook_subscription",
+      "events": [
+        "pipelines-stg-west:deployment:pending",
+        "pipelines-stg-west:deployment:completed",
+        "pipelines-stg-west:deployment:started",
+        "pipelines-ddev:deployment:pending",
+        "pipelines-ddev:deployment:completed",
+        "pipelines-ddev:deployment:started",
+        "deployment:pending",
+        "deployment:completed",
+        "deployment:started",
+        "issue:comment_created",
+        "issue:updated",
+        "issue:created",
+        "pullrequest:comment_created",
+        "pullrequest:rejected",
+        "pullrequest:fulfilled",
+        "pullrequest:unapproved",
+        "pullrequest:approved",
+        "pullrequest:updated",
+        "pullrequest:created",
+        "repo:commit_status_updated",
+        "repo:commit_comment_created",
+        "repo:fork",
+        "repo:push"
+      ],
+      "uuid": "{4e6242c6-8591-4b25-ac9a-2cc883c9b9a9}"
+    }
+  ],
+  "page": 1,
+  "size": 6
+}

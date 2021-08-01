@@ -1,0 +1,871 @@
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "name": "sample-diff",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/sample-diff"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/branches/sample-diff"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/branch/sample-diff"
+        }
+      },
+      "default_merge_strategy": "merge_commit",
+      "merge_strategies": [
+        "merge_commit",
+        "squash",
+        "fast_forward"
+      ],
+      "type": "branch",
+      "target": {
+        "hash": "5031ec597be9c0ce353acd6e46c0b41a2f67ae49",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/5031ec597be9c0ce353acd6e46c0b41a2f67ae49"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/5031ec597be9c0ce353acd6e46c0b41a2f67ae49/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/5031ec597be9c0ce353acd6e46c0b41a2f67ae49"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/5031ec597be9c0ce353acd6e46c0b41a2f67ae49"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/5031ec597be9c0ce353acd6e46c0b41a2f67ae49"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/5031ec597be9c0ce353acd6e46c0b41a2f67ae49/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/5031ec597be9c0ce353acd6e46c0b41a2f67ae49/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "023f2641f70b87578294aaf1211181cfad6c5416",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/023f2641f70b87578294aaf1211181cfad6c5416"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/023f2641f70b87578294aaf1211181cfad6c5416"
+              }
+            }
+          }
+        ],
+        "date": "2020-04-06T17:34:29+00:00",
+        "message": "changed the commented line in MainActivityCopy\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "demo",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/demo"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/branches/demo"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/branch/demo"
+        }
+      },
+      "default_merge_strategy": "merge_commit",
+      "merge_strategies": [
+        "merge_commit",
+        "squash",
+        "fast_forward"
+      ],
+      "type": "branch",
+      "target": {
+        "hash": "4003b0ad09c5c327468d4cd22e348dd985be814f",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "2a78117699f6d4132d18995ec782d7abd874aac4",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/2a78117699f6d4132d18995ec782d7abd874aac4"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/2a78117699f6d4132d18995ec782d7abd874aac4"
+              }
+            }
+          }
+        ],
+        "date": "2019-04-04T11:38:31+00:00",
+        "message": "add Picasso to load catImage\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "develop",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/develop"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/branches/develop"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/branch/develop"
+        }
+      },
+      "default_merge_strategy": "merge_commit",
+      "merge_strategies": [
+        "merge_commit",
+        "squash",
+        "fast_forward"
+      ],
+      "type": "branch",
+      "target": {
+        "hash": "6b9037600651bc55ae1747e3da424a9a2f4218d2",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/6b9037600651bc55ae1747e3da424a9a2f4218d2"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/6b9037600651bc55ae1747e3da424a9a2f4218d2/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/6b9037600651bc55ae1747e3da424a9a2f4218d2"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/6b9037600651bc55ae1747e3da424a9a2f4218d2"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/6b9037600651bc55ae1747e3da424a9a2f4218d2"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/6b9037600651bc55ae1747e3da424a9a2f4218d2/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/6b9037600651bc55ae1747e3da424a9a2f4218d2/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [],
+        "date": "2019-04-04T09:16:04+00:00",
+        "message": "initial commit\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "master",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/master"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/branches/master"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/branch/master"
+        }
+      },
+      "default_merge_strategy": "merge_commit",
+      "merge_strategies": [
+        "merge_commit",
+        "squash",
+        "fast_forward"
+      ],
+      "type": "branch",
+      "target": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/aaef8a692f03505b2549cb2f828bb0844290230c"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/aaef8a692f03505b2549cb2f828bb0844290230c/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "1ad752a6cbf9200d869061c845b06a3706958a83",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/1ad752a6cbf9200d869061c845b06a3706958a83"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/1ad752a6cbf9200d869061c845b06a3706958a83"
+              }
+            }
+          }
+        ],
+        "date": "2020-03-17T11:55:01+00:00",
+        "message": "delete proguard rules\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "removed-files",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/removed-files"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/branches/removed-files"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/branch/removed-files"
+        }
+      },
+      "default_merge_strategy": "merge_commit",
+      "merge_strategies": [
+        "merge_commit",
+        "squash",
+        "fast_forward"
+      ],
+      "type": "branch",
+      "target": {
+        "hash": "e5fcd7e7f72facd1a087a2d116c3d195c45f4046",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/e5fcd7e7f72facd1a087a2d116c3d195c45f4046"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/e5fcd7e7f72facd1a087a2d116c3d195c45f4046/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/e5fcd7e7f72facd1a087a2d116c3d195c45f4046"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/e5fcd7e7f72facd1a087a2d116c3d195c45f4046"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/e5fcd7e7f72facd1a087a2d116c3d195c45f4046"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/e5fcd7e7f72facd1a087a2d116c3d195c45f4046/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/e5fcd7e7f72facd1a087a2d116c3d195c45f4046/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "4003b0ad09c5c327468d4cd22e348dd985be814f",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/4003b0ad09c5c327468d4cd22e348dd985be814f"
+              }
+            }
+          }
+        ],
+        "date": "2020-01-28T18:03:11+00:00",
+        "message": "deleted some files\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "long-tag-with-a-reaaalllllllyyyyy-loooooonnngg-nameeeeeee",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/long-tag-with-a-reaaalllllllyyyyy-loooooonnngg-nameeeeeee"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/tags/long-tag-with-a-reaaalllllllyyyyy-loooooonnngg-nameeeeeee"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/tag/long-tag-with-a-reaaalllllllyyyyy-loooooonnngg-nameeeeeee"
+        }
+      },
+      "tagger": {
+        "raw": "Florian Meyer <florian.meyer@company.de>",
+        "type": "author",
+        "user": {
+          "display_name": "Florian Meyer",
+          "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+            },
+            "html": {
+              "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+            },
+            "avatar": {
+              "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+            }
+          },
+          "nickname": "Florian Meyer",
+          "type": "user",
+          "account_id": "5b83c633f21b0b2a6cab6675"
+        }
+      },
+      "date": "2020-01-24T23:15:18+00:00",
+      "message": "",
+      "type": "tag",
+      "target": {
+        "hash": "c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "5bb10939edacc468187adf9cda9efd2c214a27ce",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/5bb10939edacc468187adf9cda9efd2c214a27ce"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/5bb10939edacc468187adf9cda9efd2c214a27ce"
+              }
+            }
+          }
+        ],
+        "date": "2019-04-04T10:33:03+00:00",
+        "message": "adding retrofit library\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "test1",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/test1"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/tags/test1"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/tag/test1"
+        }
+      },
+      "tagger": {
+        "raw": "Florian Meyer <florian.meyer@company.de>",
+        "type": "author",
+        "user": {
+          "display_name": "Florian Meyer",
+          "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+            },
+            "html": {
+              "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+            },
+            "avatar": {
+              "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+            }
+          },
+          "nickname": "Florian Meyer",
+          "type": "user",
+          "account_id": "5b83c633f21b0b2a6cab6675"
+        }
+      },
+      "date": "2020-01-24T23:14:56+00:00",
+      "message": "",
+      "type": "tag",
+      "target": {
+        "hash": "4003b0ad09c5c327468d4cd22e348dd985be814f",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/4003b0ad09c5c327468d4cd22e348dd985be814f"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/4003b0ad09c5c327468d4cd22e348dd985be814f/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "2a78117699f6d4132d18995ec782d7abd874aac4",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/2a78117699f6d4132d18995ec782d7abd874aac4"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/2a78117699f6d4132d18995ec782d7abd874aac4"
+              }
+            }
+          }
+        ],
+        "date": "2019-04-04T11:38:31+00:00",
+        "message": "add Picasso to load catImage\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "test2",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commits/test2"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/refs/tags/test2"
+        },
+        "html": {
+          "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/tag/test2"
+        }
+      },
+      "tagger": {
+        "raw": "Florian Meyer <florian.meyer@company.de>",
+        "type": "author",
+        "user": {
+          "display_name": "Florian Meyer",
+          "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+            },
+            "html": {
+              "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+            },
+            "avatar": {
+              "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+            }
+          },
+          "nickname": "Florian Meyer",
+          "type": "user",
+          "account_id": "5b83c633f21b0b2a6cab6675"
+        }
+      },
+      "date": "2020-01-24T23:15:00+00:00",
+      "message": "",
+      "type": "tag",
+      "target": {
+        "hash": "c94203aac7810dc933855881d4f3b27644e64dbd",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop"
+            },
+            "html": {
+              "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7Ba653e7cd-8b28-4924-aa8b-babe3f71f769%7D?ts=default"
+            }
+          },
+          "type": "repository",
+          "name": "sm-coding-workshop",
+          "full_name": "florianmeyer_eb/sm-coding-workshop",
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c94203aac7810dc933855881d4f3b27644e64dbd"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c94203aac7810dc933855881d4f3b27644e64dbd/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/patch/c94203aac7810dc933855881d4f3b27644e64dbd"
+          },
+          "html": {
+            "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/c94203aac7810dc933855881d4f3b27644e64dbd"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/c94203aac7810dc933855881d4f3b27644e64dbd"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c94203aac7810dc933855881d4f3b27644e64dbd/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c94203aac7810dc933855881d4f3b27644e64dbd/statuses"
+          }
+        },
+        "author": {
+          "raw": "Florian Meyer <florian.meyer@company.de>",
+          "type": "author",
+          "user": {
+            "display_name": "Florian Meyer",
+            "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+              }
+            },
+            "nickname": "Florian Meyer",
+            "type": "user",
+            "account_id": "5b83c633f21b0b2a6cab6675"
+          }
+        },
+        "parents": [
+          {
+            "hash": "c41071d0408881403275fea2accfc13f806496fd",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/commit/c41071d0408881403275fea2accfc13f806496fd"
+              },
+              "html": {
+                "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/commits/c41071d0408881403275fea2accfc13f806496fd"
+              }
+            }
+          }
+        ],
+        "date": "2019-04-04T11:27:11+00:00",
+        "message": "add first api call in onResume\n",
+        "type": "commit"
+      }
+    }
+  ],
+  "page": 1
+}

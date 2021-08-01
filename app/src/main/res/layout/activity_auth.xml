@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bottom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/activity_auth_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            tools:title="@null" />
+
+
+        <fragment
+            android:id="@+id/activity_auth_nav_host"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_graph_auth"
+            tools:layout="@layout/fragment_auth" />
+
+    </LinearLayout>
+
+    <!-- BOTTOM SHEET -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_rect_10dp_top"
+        bottom:behavior_peekHeight="0dp"
+        bottom:behavior_skipCollapsed="true"
+        bottom:behavior_hideable="true"
+        bottom:behavior_draggable="false"
+        android:elevation="8dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <TextView
+            android:id="@+id/tv_consent_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/before_you_login"
+            android:textAppearance="@style/TextAppearance.Bitpot.Headline2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_consent_request"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/consent_request"
+            android:textAppearance="@style/TextAppearance.Bitpot.Body3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_consent_title"
+            app:layout_constraintTop_toBottomOf="@+id/tv_consent_title" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/sw_crashlytics"
+            style="@style/Widget.Bitpot.Switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:checked="true"
+            android:enabled="false"
+            android:text="@string/crash_reporting_mandatory"
+            app:layout_constraintEnd_toEndOf="@+id/tv_consent_request"
+            app:layout_constraintStart_toStartOf="@id/tv_consent_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_consent_request" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/sw_analytics"
+            style="@style/Widget.Bitpot.Switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:checked="true"
+            android:text="@string/analytics"
+            app:layout_constraintEnd_toEndOf="@+id/tv_consent_request"
+            app:layout_constraintStart_toStartOf="@id/tv_consent_title"
+            app:layout_constraintTop_toBottomOf="@id/sw_crashlytics" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/sw_personalized_ads"
+            style="@style/Widget.Bitpot.Switch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:checked="true"
+            android:text="@string/personalized_ads"
+            app:layout_constraintEnd_toEndOf="@+id/tv_consent_request"
+            app:layout_constraintStart_toStartOf="@id/tv_consent_title"
+            app:layout_constraintTop_toBottomOf="@id/sw_analytics" />
+
+        <Button
+            android:id="@+id/btn_consent_agree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/agree"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sw_personalized_ads" />
+
+        <Button
+            android:id="@+id/btn_privacy_policy"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/privacy_policy"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_consent_agree"
+            app:layout_constraintStart_toStartOf="@+id/tv_consent_title"
+            app:layout_constraintTop_toTopOf="@+id/btn_consent_agree" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

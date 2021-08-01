@@ -1,0 +1,86 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+
+def bitbucketProperties = new Properties()
+file("../bitbucket.properties").withInputStream { bitbucketProperties.load(it) }
+
+android {
+    compileSdkVersion 30
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 30
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "BITBUCKET_CLIENT_SECRET", bitbucketProperties.getProperty("bitbucket.clientSecret")
+        buildConfigField "String", "BITBUCKET_CLIENT_ID", bitbucketProperties.getProperty("bitbucket.clientId")
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+}
+
+dependencies {
+    // Google
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+
+    // Kotlin
+    implementation 'androidx.core:core-ktx:1.7.0-alpha01'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.21"
+
+    // Retrofit + Jackson - retrofit must be defined as 'api' so that the data module can use
+    // the Callbacks provided by the network module. E.g. RepositoriesNetworkBoundaryCallback
+    api 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+
+    // Koin
+    implementation 'org.koin:koin-android:2.0.1'
+
+    // Paging
+    implementation "androidx.paging:paging-runtime-ktx:3.0.1"
+
+    // OAuth
+    implementation 'net.openid:appauth:0.9.1'
+
+    // Logging
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // SharedPrefs
+    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
+    implementation 'com.chibatching.kotpref:enum-support:2.13.1'
+
+    // Unit Tests
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'androidx.test:core:1.4.0'
+    testImplementation 'android.arch.core:core-testing:1.1.1'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit:1.5.20'
+    testImplementation 'com.jraska.livedata:testing-ktx:1.2.0'
+
+    // Download Files
+    implementation "androidx.tonyodev.fetch2:xfetch2:3.1.4"
+    implementation "androidx.tonyodev.fetch2okhttp:xfetch2okhttp:3.1.4"
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/ic_pipeline_pending"
+    >
+    <target android:name="smallToBigCircle1">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:duration="500"
+                    android:valueFrom="M 25 59 C 25 59.276 24.888 59.526 24.707 59.707 C 24.526 59.888 24.276 60 24 60 C 23.724 60 23.474 59.888 23.293 59.707 C 23.112 59.526 23 59.276 23 59 C 23 58.816 23.05 58.644 23.137 58.495 C 23.223 58.347 23.347 58.223 23.495 58.137 C 23.644 58.05 23.816 58 24 58 C 24.552 58 25 58.448 25 59 C 25 59 25 59 25 59"
+                    android:valueTo="M 38 59 C 38 62.712 36.524 66.275 33.899 68.899 C 31.275 71.524 27.712 73 24 73 C 20.288 73 16.725 71.524 14.101 68.899 C 11.476 66.275 10 62.712 10 59 C 10 55.288 11.476 51.725 14.101 49.101 C 16.725 46.476 20.288 45 24 45 C 24 45 24 45 24 45 C 27.712 45 31.275 46.476 33.899 49.101 C 36.524 51.725 38 55.288 38 59"
+                    android:valueType="pathType"
+                    />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="0"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="bigToSmallCircle1">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="M 38 59 C 38 62.712 36.524 66.275 33.899 68.899 C 31.275 71.524 27.712 73 24 73 C 20.288 73 16.725 71.524 14.101 68.899 C 11.476 66.275 10 62.712 10 59 C 10 55.288 11.476 51.725 14.101 49.101 C 16.725 46.476 20.288 45 24 45 C 24 45 24 45 24 45 C 27.712 45 31.275 46.476 33.899 49.101 C 36.524 51.725 38 55.288 38 59"
+                    android:valueTo="M 25 59 C 25 59.276 24.888 59.526 24.707 59.707 C 24.526 59.888 24.276 60 24 60 C 23.724 60 23.474 59.888 23.293 59.707 C 23.112 59.526 23 59.276 23 59 C 23 58.816 23.05 58.644 23.137 58.495 C 23.223 58.347 23.347 58.223 23.495 58.137 C 23.644 58.05 23.816 58 24 58 C 24.552 58 25 58.448 25 59 C 25 59 25 59 25 59"
+                    android:valueType="pathType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="0"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="smallToBigCircle2">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="M 60 58 C 59.735 58 59.48 58.105 59.293 58.293 C 59.105 58.48 59 58.735 59 59 C 59 59.265 59.105 59.52 59.293 59.707 C 59.48 59.895 59.735 60 60 60 C 60.265 60 60.52 59.895 60.707 59.707 C 60.895 59.52 61 59.265 61 59 C 61 58.735 60.895 58.48 60.707 58.293 C 60.52 58.105 60.265 58 60 58 L 60 58"
+                    android:valueTo="M 60 45 C 56.288 45 52.725 46.476 50.101 49.101 C 47.476 51.725 46 55.288 46 59 C 46 62.712 47.476 66.275 50.101 68.899 C 52.725 71.524 56.288 73 60 73 C 63.712 73 67.275 71.524 69.899 68.899 C 72.524 66.275 74 62.712 74 59 C 74 55.288 72.524 51.725 69.899 49.101 C 67.275 46.476 63.712 45 60 45 L 60 45"
+                    android:valueType="pathType"
+                    />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="bigToSmallCircle2">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="M 60 45 C 56.288 45 52.725 46.476 50.101 49.101 C 47.476 51.725 46 55.288 46 59 C 46 62.712 47.476 66.275 50.101 68.899 C 52.725 71.524 56.288 73 60 73 C 63.712 73 67.275 71.524 69.899 68.899 C 72.524 66.275 74 62.712 74 59 C 74 55.288 72.524 51.725 69.899 49.101 C 67.275 46.476 63.712 45 60 45 L 60 45"
+                    android:valueTo="M 60 58 C 59.735 58 59.48 58.105 59.293 58.293 C 59.105 58.48 59 58.735 59 59 C 59 59.265 59.105 59.52 59.293 59.707 C 59.48 59.895 59.735 60 60 60 C 60.265 60 60.52 59.895 60.707 59.707 C 60.895 59.52 61 59.265 61 59 C 61 58.735 60.895 58.48 60.707 58.293 C 60.52 58.105 60.265 58 60 58 L 60 58"
+                    android:valueType="pathType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="500"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="smallToBigCircle3">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="M 96 58 C 95.735 58 95.48 58.105 95.293 58.293 C 95.105 58.48 95 58.735 95 59 C 95 59.265 95.105 59.52 95.293 59.707 C 95.48 59.895 95.735 60 96 60 C 96.265 60 96.52 59.895 96.707 59.707 C 96.895 59.52 97 59.265 97 59 C 97 58.735 96.895 58.48 96.707 58.293 C 96.52 58.105 96.265 58 96 58 L 96 58"
+                    android:valueTo="M 96 45 C 92.288 45 88.725 46.476 86.101 49.101 C 83.476 51.725 82 55.288 82 59 C 82 62.712 83.476 66.275 86.101 68.899 C 88.725 71.524 92.288 73 96 73 C 99.712 73 103.275 71.524 105.899 68.899 C 108.524 66.275 110 62.712 110 59 C 110 55.288 108.524 51.725 105.899 49.101 C 103.275 46.476 99.712 45 96 45 L 96 45"
+                    android:valueType="pathType"
+                    />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1500"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType"
+                    />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="bigToSmallCircle3">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:propertyName="pathData"
+                    android:startOffset="1500"
+                    android:duration="500"
+
+                    android:valueFrom="M 96 45 C 99.712 45 103.275 46.476 105.899 49.101 C 108.524 51.725 110 55.288 110 59 C 110 62.712 108.524 66.275 105.899 68.899 C 103.275 71.524 99.712 73 96 73 C 92.288 73 88.725 71.524 86.101 68.899 C 83.476 66.275 82 62.712 82 59 C 82 55.288 83.476 51.725 86.101 49.101 C 88.725 46.476 92.288 45 96 45 L 96 45"
+                    android:valueTo="M 96 58 C 96.265 58 96.52 58.105 96.707 58.293 C 96.895 58.48 97 58.735 97 59 C 97 59.265 96.895 59.52 96.707 59.707 C 96.52 59.895 96.265 60 96 60 C 95.735 60 95.48 59.895 95.293 59.707 C 95.105 59.52 95 59.265 95 59 C 95 58.735 95.105 58.48 95.293 58.293 C 95.48 58.105 95.735 58 96 58 L 96 58"
+                    android:valueType="pathType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1000"
+                    android:duration="500"
+                    android:valueFrom="0"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:propertyName="fillAlpha"
+                    android:startOffset="1500"
+                    android:duration="500"
+                    android:valueFrom="1"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Base app theme -->
+    <style name="Bitpot" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Default Window transition -->
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowExitTransition">@android:transition/fade</item>
+        <item name="android:windowReturnTransition">@android:transition/fade</item>
+        <item name="android:windowReenterTransition">@android:transition/fade</item>
+
+        <!-- Material color attributes -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorSecondaryVariant">@color/color_secondary_variant</item>
+        <item name="colorOnSecondary">@color/color_on_secondary</item>
+
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorOnBackground">@color/color_on_background</item>
+
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_on_surface</item>
+
+        <item name="colorError">@color/color_error</item>
+        <item name="colorOnError">@color/color_on_error</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.Bitpot.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Bitpot.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Bitpot.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Bitpot.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Bitpot.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Bitpot.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Bitpot.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Bitpot.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Bitpot.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Bitpot.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Bitpot.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Bitpot.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Bitpot.Overline</item>
+
+        <!-- Component styles -->
+        <item name="navigationViewStyle">@style/Widget.Bitpot.NavigationView</item>
+        <item name="drawerArrowStyle">@style/Widget.Bitpot.DrawerArrow</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Bitpot.ProgressBar.Horizontal</item>
+        <item name="switchStyle">@style/Widget.Bitpot.Switch</item>
+
+        <!-- Status and Navigation Bar -->
+        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarColor">?android:colorBackground</item>
+        <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?android:colorBackground</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorSecondary</item>
+    </style>
+
+</resources>

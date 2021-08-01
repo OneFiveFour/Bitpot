@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="repo_action_script_gradient_from">#D51E23</color>
+    <color name="repo_android_gradient_from">#FFA5C536</color>
+    <color name="repo_c_gradient_from">#46A2DA</color>
+    <color name="repo_c_plus_plus_gradient_from">#0056A0</color>
+    <color name="repo_c_sharp_gradient_from">#83308A</color>
+    <color name="repo_cold_fusion_gradient_from">#21434E</color>
+    <color name="repo_default_gradient_from">#7eecb5</color>
+    <color name="repo_dart_gradient_from">#00D2B8</color>
+    <color name="repo_go_gradient_from">#69D7E2</color>
+    <color name="repo_haskell_gradient_from">#914A8D</color>
+    <color name="repo_html_gradient_from">#EE6F23</color>
+    <color name="repo_java_gradient_from">#D12A2E</color>
+    <color name="repo_java_script_gradient_from">#FFE938</color>
+    <color name="repo_latex_gradient_from">#265084</color>
+    <color name="repo_markdown_gradient_from">#4FC4C5</color>
+    <color name="repo_node_js_gradient_from">#90C63E</color>
+    <color name="repo_objective_c_gradient_from">#7F5FA9</color>
+    <color name="repo_php_gradient_from">#2A81D7</color>
+    <color name="repo_python_gradient_from">#1679DD</color>
+    <color name="repo_ruby_gradient_from">#F33E42</color>
+    <color name="repo_scala_gradient_from">#D51E23</color>
+    <color name="repo_vb_net_gradient_from">#69167D</color>
+
+    <color name="repo_action_script_gradient_to">#F9292F</color>
+    <color name="repo_android_gradient_to">#9ABA1D</color>
+    <color name="repo_c_gradient_to">#4CBAFD</color>
+    <color name="repo_c_plus_plus_gradient_to">#167AD1</color>
+    <color name="repo_c_sharp_gradient_to">#AB37B5</color>
+    <color name="repo_cold_fusion_gradient_to">#195E74</color>
+    <color name="repo_default_gradient_to">#7EECB5</color>
+    <color name="repo_dart_gradient_to">#0081C6</color>
+    <color name="repo_go_gradient_to">#34B0BD</color>
+    <color name="repo_haskell_gradient_to">#BB31B3</color>
+    <color name="repo_html_gradient_to">#FF843A</color>
+    <color name="repo_java_gradient_to">#D12A2E</color>
+    <color name="repo_java_script_gradient_to">#E2CA04</color>
+    <color name="repo_latex_gradient_to">#1B61B8</color>
+    <color name="repo_markdown_gradient_to">#3EE5E6</color>
+    <color name="repo_node_js_gradient_to">#AEF249</color>
+    <color name="repo_objective_c_gradient_to">#6434A2</color>
+    <color name="repo_php_gradient_to">#205991</color>
+    <color name="repo_python_gradient_to">#3272B2</color>
+    <color name="repo_ruby_gradient_to">#CF050B</color>
+    <color name="repo_scala_gradient_to">#8B1215</color>
+    <color name="repo_vb_net_gradient_to">#9312B1</color>
+
+    <color name="repo_text_action_script">@color/repo_text_white</color>
+    <color name="repo_text_android">@color/repo_text_black</color>
+    <color name="repo_text_c">@color/repo_text_black</color>
+    <color name="repo_text_c_plus_plus">@color/repo_text_white</color>
+    <color name="repo_text_c_sharp">@color/repo_text_white</color>
+    <color name="repo_text_cold_fusion">@color/repo_text_white</color>
+    <color name="repo_text_default">@color/repo_text_black</color>
+    <color name="repo_text_dart">@color/repo_text_black</color>
+    <color name="repo_text_go">@color/repo_text_black</color>
+    <color name="repo_text_haskell">@color/repo_text_white</color>
+    <color name="repo_text_html">@color/repo_text_black</color>
+    <color name="repo_text_java">@color/repo_text_white</color>
+    <color name="repo_text_java_script">@color/repo_text_black</color>
+    <color name="repo_text_latex">@color/repo_text_white</color>
+    <color name="repo_text_markdown">@color/repo_text_black</color>
+    <color name="repo_text_node_js">@color/repo_text_black</color>
+    <color name="repo_text_objective_c">@color/repo_text_white</color>
+    <color name="repo_text_php">@color/repo_text_white</color>
+    <color name="repo_text_python">@color/repo_text_white</color>
+    <color name="repo_text_ruby">@color/repo_text_black</color>
+    <color name="repo_text_scala">@color/repo_text_white</color>
+    <color name="repo_text_vb_net">@color/repo_text_white</color>
+
+    <color name="repo_text_white">#CCFFFFFF</color>
+    <color name="repo_text_black">#FF494949</color>
+
+</resources>

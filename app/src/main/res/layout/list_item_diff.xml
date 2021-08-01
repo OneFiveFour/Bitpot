@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:binding="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+        <variable
+            name="item"
+            type="net.onefivefour.android.bitpot.data.model.FileDiff" />
+
+        <variable
+            name="commentCallback"
+            type="net.onefivefour.android.bitpot.customviews.pullrequest.DiffView.CommentCallback" />
+    </data>
+
+    <net.onefivefour.android.bitpot.customviews.pullrequest.DiffView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        binding:diff="@{item}"
+        binding:commentCallback="@{commentCallback}"
+        />
+
+</layout>

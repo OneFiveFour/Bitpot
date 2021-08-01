@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_app"
+    app:startDestination="@id/fragment_repositories">
+    <fragment
+        android:id="@+id/fragment_repositories"
+        android:name="net.onefivefour.android.bitpot.screens.repositories.RepositoriesFragment"
+        android:label="Repositories"
+        tools:layout="@layout/fragment_repositories">
+        <action
+            android:id="@+id/action_repositoriesFragment_to_repositoryActivity"
+            app:destination="@id/activity_repository" />
+    </fragment>
+
+    <activity
+        android:id="@+id/activity_auth"
+        android:name="net.onefivefour.android.bitpot.screens.auth.AuthActivity"
+        android:label="AuthActivity"
+        tools:layout="@layout/activity_auth" />
+    <action
+        android:id="@+id/action_global_authActivity"
+        app:destination="@id/activity_auth" />
+    <activity
+        android:id="@+id/activity_repository"
+        android:name="net.onefivefour.android.bitpot.screens.repository.RepositoryActivity"
+        android:label="RepositoryActivity"
+        tools:layout="@layout/activity_repository">
+        <argument
+            android:name="workspaceUuid"
+            app:argType="string" />
+        <argument
+            android:name="repositoryUuid"
+            app:argType="string" />
+        <argument
+            android:name="targetView"
+            android:defaultValue="sources"
+            app:argType="string" />
+        <argument
+            android:name="targetId"
+            app:argType="string"
+            android:defaultValue="" />
+    </activity>
+    <fragment
+        android:id="@+id/fragment_legal"
+        android:name="net.onefivefour.android.bitpot.screens.legal.LegalFragment"
+        android:label="@string/legal" />
+    <fragment
+        android:id="@+id/fragment_markdown"
+        android:name="net.onefivefour.android.bitpot.screens.markdown.MarkdownFragment"
+        android:label="{title}">
+        <argument
+            android:name="fileName"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_fragment_markdown"
+        app:destination="@id/fragment_markdown" />
+    <fragment
+        android:id="@+id/fragment_settings"
+        android:name="net.onefivefour.android.bitpot.screens.settings.SettingsFragment"
+        android:label="@string/settings" />
+</navigation>

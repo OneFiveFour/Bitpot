@@ -1,0 +1,235 @@
+{
+  "page": 1,
+  "values": [
+    {
+      "uuid": "{94987040-cf05-454c-bb6a-6cd81491a674}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "FAILED",
+          "type": "pipeline_state_completed_failed"
+        }
+      },
+      "build_number": 1,
+      "created_on": "2019-04-10T13:58:02.77Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "develop",
+        "commit": {
+          "message": "Initial Bitbucket Pipelines configuration"
+        }
+      }
+    },
+    {
+      "uuid": "{0ce379ff-7b99-4fff-9082-2a35a1a8370d}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "FAILED",
+          "type": "pipeline_state_completed_failed"
+        }
+      },
+      "build_number": 2,
+      "created_on": "2019-04-10T13:59:41.246Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "develop",
+        "commit": {
+          "message": "Merge branch 'develop' of bitbucket.org:companymobile/android_bvb_new into develop\n"
+        }
+      }
+    },
+    {
+      "uuid": "{69702a07-772a-4e47-a9e4-d7bab77817bf}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 3,
+      "created_on": "2019-04-10T14:01:12.986Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "develop",
+        "commit": {
+          "message": "added script for the pipielines building\n"
+        }
+      }
+    },
+    {
+      "uuid": "{3be83b41-f442-4996-b622-2eca3783a7bb}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 4,
+      "created_on": "2019-04-10T14:09:27.211Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "TestPipelines",
+        "commit": {
+          "message": "added script for the pipielines building\n"
+        }
+      }
+    },
+    {
+      "uuid": "{6b1eb5ef-a410-4c6a-82ac-116226cb5b27}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 5,
+      "created_on": "2019-04-10T14:14:01.103Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "releases",
+        "commit": {
+          "message": "Merged in develop (pull request #18)\n\nDevelop\n"
+        }
+      }
+    },
+    {
+      "uuid": "{2f325866-459a-4861-a728-6d36b7430236}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 6,
+      "created_on": "2019-04-10T14:19:53.452Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "releases",
+        "commit": {
+          "message": "bitbucket-pipelines.yml edited online with Bitbucket"
+        }
+      }
+    },
+    {
+      "uuid": "{c6ab15a7-4808-42ae-8d79-d70f378b71c8}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "FAILED",
+          "type": "pipeline_state_completed_failed"
+        }
+      },
+      "build_number": 7,
+      "created_on": "2019-04-10T14:21:19.615Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "master",
+        "commit": {
+          "message": "Merged in releases (pull request #19)\n\nReleases\n"
+        }
+      }
+    },
+    {
+      "uuid": "{493a4d43-f489-494a-b034-5e0a352e9f72}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 8,
+      "created_on": "2019-04-10T14:28:45.016Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "master",
+        "commit": {
+          "message": "bitbucket-pipelines.yml edited online with Bitbucket"
+        }
+      }
+    },
+    {
+      "uuid": "{b9bd0cd1-44eb-43cb-82d9-326ec66d940c}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 9,
+      "created_on": "2019-04-10T14:33:54.963Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "releases",
+        "commit": {
+          "message": "bitbucket-pipelines.yml edited online with Bitbucket"
+        }
+      }
+    },
+    {
+      "uuid": "{89fadc55-3801-4b25-9fa0-df20205cc122}",
+      "repository": {
+        "uuid": "{feafd0d9-f8cc-4baf-bbe1-b7b4cff3119c}"
+      },
+      "state": {
+        "name": "COMPLETED",
+        "type": "pipeline_state_completed",
+        "result": {
+          "name": "SUCCESSFUL",
+          "type": "pipeline_state_completed_successful"
+        }
+      },
+      "build_number": 10,
+      "created_on": "2019-04-10T14:34:16.663Z",
+      "target": {
+        "type": "pipeline_ref_target",
+        "ref_name": "develop",
+        "commit": {
+          "message": "bitbucket-pipelines.yml edited online with Bitbucket"
+        }
+      }
+    }
+  ]
+}

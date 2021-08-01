@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/bitpot">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/fragment_repositories"
+                    android:icon="@drawable/ic_repositories"
+                    android:checkable="false"
+                    android:title="@string/repositories" />
+                <item
+                    android:id="@+id/fragment_settings"
+                    android:icon="@drawable/ic_settings"
+                    android:checkable="false"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/fragment_legal"
+                    android:icon="@drawable/ic_legal"
+                    android:checkable="false"
+                    android:title="@string/legal" />
+                <item
+                    android:id="@+id/send_feedback"
+                    android:icon="@drawable/ic_send_feedback"
+                    android:checkable="false"
+                    android:title="@string/send_feedback" />
+            </group>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/activity_auth"
+            android:title="@string/logout"
+            android:checkable="false"
+            />
+    </group>
+
+</menu>

@@ -1,0 +1,85 @@
+{
+  "values": [
+    {
+      "type": "branch",
+      "name": "sample-diff",
+      "target": {
+        "hash": "5031ec597be9c0ce353acd6e46c0b41a2f67ae49",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "branch",
+      "name": "demo",
+      "target": {
+        "hash": "4003b0ad09c5c327468d4cd22e348dd985be814f",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "branch",
+      "name": "develop",
+      "target": {
+        "hash": "6b9037600651bc55ae1747e3da424a9a2f4218d2",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "branch",
+      "name": "master",
+      "target": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "branch",
+      "name": "removed-files",
+      "target": {
+        "hash": "e5fcd7e7f72facd1a087a2d116c3d195c45f4046",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "tag",
+      "name": "long-tag-with-a-reaaalllllllyyyyy-loooooonnngg-nameeeeeee",
+      "target": {
+        "hash": "c412bb4d44efdaff3856e6e7ad2e87ddd1c03b40",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "tag",
+      "name": "test1",
+      "target": {
+        "hash": "4003b0ad09c5c327468d4cd22e348dd985be814f",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    },
+    {
+      "type": "tag",
+      "name": "test2",
+      "target": {
+        "hash": "c94203aac7810dc933855881d4f3b27644e64dbd",
+        "repository": {
+          "uuid": "{a653e7cd-8b28-4924-aa8b-babe3f71f769}"
+        }
+      }
+    }
+  ],
+  "page": 1
+}

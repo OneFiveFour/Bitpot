@@ -1,0 +1,73 @@
+{
+  "links": {
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/pullrequests/2/comments/150505734"
+    },
+    "code": {
+      "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/diff/florianmeyer_eb/sm-coding-workshop:5031ec597be9..aaef8a692f03?path=app%2Fsrc%2Fmain%2FAndroidManifest.xml"
+    },
+    "html": {
+      "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/pull-requests/2/_/diff#comment-150505734"
+    }
+  },
+  "parent": {
+    "id": 142468514,
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/pullrequests/2/comments/142468514"
+      },
+      "html": {
+        "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/pull-requests/2/_/diff#comment-142468514"
+      }
+    }
+  },
+  "deleted": false,
+  "pullrequest": {
+    "type": "pullrequest",
+    "id": 2,
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/florianmeyer_eb/sm-coding-workshop/pullrequests/2"
+      },
+      "html": {
+        "href": "https://bitbucket.org/florianmeyer_eb/sm-coding-workshop/pull-requests/2"
+      }
+    },
+    "title": "This is a merge to test all types of git diff"
+  },
+  "content": {
+    "raw": "This is a comment posted via Postman",
+    "markup": "markdown",
+    "html": "<p>This is a comment posted via Postman</p>",
+    "type": "rendered"
+  },
+  "created_on": "2020-05-15T19:08:13.227839+00:00",
+  "user": {
+    "display_name": "Florian Meyer",
+    "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+      },
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+      }
+    },
+    "nickname": "Florian Meyer",
+    "type": "user",
+    "account_id": "5b83c633f21b0b2a6cab6675"
+  },
+  "inline": {
+    "context_lines": "",
+    "to": 24,
+    "from": 18,
+    "outdated": false,
+    "path": "app/src/main/AndroidManifest.xml"
+  },
+  "updated_on": "2020-05-15T19:08:13.232398+00:00",
+  "type": "pullrequest_comment",
+  "id": 150505734
+}

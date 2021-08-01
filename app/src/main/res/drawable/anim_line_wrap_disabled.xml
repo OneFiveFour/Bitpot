@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_toggle_line_wrap" >
+    <target
+        android:name="verticalLine"
+        android:animation="@animator/line_wrap_move_vertical_line_left" />
+    <target
+        android:name="bottomLine"
+        android:animation="@animator/line_wrap_move_bottom_line_up" />
+    <target
+        android:name="topLineGrey"
+        android:animation="@animator/line_wrap_show_top_line_grey" />
+    <target
+        android:name="topLine"
+        android:animation="@animator/line_wrap_shrink_top_line" />
+    <target
+        android:name="middleLineRightGroup"
+        android:animation="@animator/line_wrap_move_middle_line_right_up" />
+    <target
+        android:name="middleLineRightPath"
+        android:animation="@animator/line_wrap_color_middle_line_right_black_to_grey" />
+    <target
+        android:name="middleLineLeft"
+        android:animation="@animator/line_wrap_morph_middle_line_left_to_line" />
+</animated-vector>

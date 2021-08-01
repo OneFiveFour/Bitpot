@@ -1,0 +1,67 @@
+{
+  "values": [
+    {
+      "path": "app",
+      "type": "commit_directory",
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      }
+    },
+    {
+      "path": "gradle",
+      "type": "commit_directory",
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      }
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 896,
+      "type": "commit_file",
+      "path": ".gitignore"
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 661,
+      "type": "commit_file",
+      "path": "build.gradle"
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 1163,
+      "type": "commit_file",
+      "path": "gradle.properties"
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 5296,
+      "type": "commit_file",
+      "path": "gradlew"
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 2176,
+      "type": "commit_file",
+      "path": "gradlew.bat"
+    },
+    {
+      "commit": {
+        "hash": "aaef8a692f03505b2549cb2f828bb0844290230c"
+      },
+      "size": 15,
+      "type": "commit_file",
+      "path": "settings.gradle"
+    }
+  ],
+  "page": 1
+}

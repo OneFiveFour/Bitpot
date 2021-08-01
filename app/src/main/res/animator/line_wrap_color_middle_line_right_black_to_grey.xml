@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:propertyName="fillColor"
+        android:valueFrom="@color/color_on_surface"
+        android:valueTo="@color/grey_7f"
+        android:valueType="colorType"/>
+</set>

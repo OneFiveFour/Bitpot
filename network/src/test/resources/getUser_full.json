@@ -1,0 +1,33 @@
+{
+  "username": "florianmeyer_eb",
+  "display_name": "Florian Meyer",
+  "has_2fa_enabled": null,
+  "links": {
+    "hooks": {
+      "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/hooks"
+    },
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/users/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+    },
+    "repositories": {
+      "href": "https://api.bitbucket.org/2.0/repositories/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+    },
+    "html": {
+      "href": "https://bitbucket.org/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D/"
+    },
+    "avatar": {
+      "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5b83c633f21b0b2a6cab6675/aa9ce07a-ffe3-42eb-929c-6646b300cd49/128"
+    },
+    "snippets": {
+      "href": "https://api.bitbucket.org/2.0/snippets/%7Bacff8327-a725-43d0-aa8c-e8c1d957fe77%7D"
+    }
+  },
+  "nickname": "Florian Meyer",
+  "account_id": "5b83c633f21b0b2a6cab6675",
+  "created_on": "2018-09-11T08:41:50.653217+00:00",
+  "is_staff": false,
+  "location": "München",
+  "account_status": "active",
+  "type": "user",
+  "uuid": "{acff8327-a725-43d0-aa8c-e8c1d957fe77}"
+}
